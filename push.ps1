@@ -2,7 +2,7 @@
 #   $env:GITHUB_TOKEN = "<你的 PAT>"
 #   powershell -ExecutionPolicy Bypass -File .\push.ps1
 # 脚本不清除、不保存 token；只在本进程命令行内使用一次，不写入 .git/config。
-param([string]$Repo = "https://github.com/echo060702/cv-project.git", [string]$Branch = "master")
+param([string]$Repo = "https://github.com/echo060702/cv-project.git", [string]$Branch = "main")
 
 $git = "C:\Program Files\Git\cmd\git.exe"
 $token = $env:GITHUB_TOKEN

@@ -1,5 +1,7 @@
 > **GitHub 仓库版说明**：本仓库只含代码、配置、文档、审计清单与 G/A 六次实验的日志/结果（约 9 MB）。
-> 官方图像与 checkpoint 不进入 git（单文件超 GitHub 100 MB 限制），获取方式见 `docs/仓库说明_数据与权重获取.md`。
+> 官方图像与 checkpoint 不进入 git（单文件超 GitHub 100 MB 限制）。
+> 权重从 [Release v1.0-weights](https://github.com/echo060702/cv-project/releases/tag/v1.0-weights) 下载 `checkpoints.zip`，
+> 图像从官方 Hugging Face 数据集获取；步骤与 SHA256 见 `docs/仓库说明_数据与权重获取.md`。
 > 团队交接用的完整离线包（含 8,000 训练图与权重，2.28 GiB）另行分发，不在本仓库内。
 
 # AI 生成图像识别：数据 + G/A 六次正式基线（交接包）

@@ -75,6 +75,9 @@ def main():
     parser.add_argument('--output', default='results/baselines')
     parser.add_argument('--verify-predictions', action='store_true', help='reload each best.pt and rerun clean dev only')
     parser.add_argument('--device', default='cuda')
+    parser.add_argument('--experiments', nargs='+', default=['G', 'A'],
+                        help='要汇总的实验组；组号需与 configs/<组>.json 对应')
+    parser.add_argument('--seeds', nargs='+', type=int, default=[17, 29, 43])
     args = parser.parse_args()
     os.environ.setdefault('CUBLAS_WORKSPACE_CONFIG', ':4096:8')
     torch.set_num_threads(4)
@@ -82,8 +85,8 @@ def main():
     manifest = list(csv.DictReader(Path('data/splits.csv').read_text(encoding='utf-8').splitlines()))
     dev_labels = {r['image_id']: int(r['label']) for r in manifest if r['split'] == 'dev'}
     records, histories = [], {}
-    for seed in (17, 29, 43):
-        for experiment in ('G', 'A'):
+    for seed in args.seeds:
+        for experiment in args.experiments:
             directory = Path(args.runs)/f'{experiment}_seed{seed}'
             record, history = inspect_run(directory)
             config = json.loads((directory/'config.json').read_text(encoding='utf-8'))
@@ -111,9 +114,10 @@ def main():
             histories[experiment, seed] = history
             print(f'verified {experiment} seed={seed}: best epoch {record["best_epoch"]}, dev {record["dev_accuracy"]:.6f}', flush=True)
     summaries = []
-    for experiment in ('G', 'A'):
+    for experiment in args.experiments:
         subset = [r for r in records if r['experiment'] == experiment]
-        summaries.append({'experiment': experiment, 'seeds': '17/29/43', 'runs': 3,
+        summaries.append({'experiment': experiment, 'seeds': '/'.join(str(s) for s in args.seeds),
+                          'runs': len(args.seeds),
                           'dev_accuracy_mean': statistics.mean(r['dev_accuracy'] for r in subset),
                           'dev_accuracy_sample_std': statistics.stdev(r['dev_accuracy'] for r in subset),
                           'dev_bce_mean': statistics.mean(r['dev_bce'] for r in subset),
@@ -127,27 +131,35 @@ def main():
             writer.writeheader()
             writer.writerows(rows)
     report = {'passed': True, 'scope': 'clean single-patch dev, selected on this same dev; no independent generalization claim',
-              'completed_runs': 6, 'epochs_per_run': 20, 'threshold': 0.5, 'checkpoint_selection': 'dev accuracy, lower BCE, earlier epoch',
+              'completed_runs': len(records),
+              'epochs_per_run': min(len(h) for h in histories.values()), 'threshold': 0.5, 'checkpoint_selection': 'dev accuracy, lower BCE, earlier epoch',
               'checkpoint_predictions_replayed': args.verify_predictions, 'holdout_evaluated': False, 'test_pixels_decoded': False,
               'recorded_seconds_exclude_checkpoint_io_and_process_startup': True, 'runs': records, 'summary': summaries,
               'timing_caveat': 'perf_counter epoch wall time may include machine suspension; retain raw values and inspect median/min/max; not GPU compute time',
-              'A_minus_G_mean_percentage_points': 100*(summaries[1]['dev_accuracy_mean']-summaries[0]['dev_accuracy_mean'])}
+              }
+    by_experiment = {item['experiment']: item for item in summaries}
+    if 'A' in by_experiment and 'G' in by_experiment:
+        report['A_minus_G_mean_percentage_points'] = 100*(by_experiment['A']['dev_accuracy_mean']-by_experiment['G']['dev_accuracy_mean'])
     (output/'baseline_summary.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
 
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
     figure, axes = plt.subplots(1, 2, figsize=(11, 4.2), constrained_layout=True)
-    for experiment, color in (('G', '#0072B2'), ('A', '#D55E00')):
+    palette = ['#0072B2', '#D55E00', '#009E73', '#CC79A7', '#E69F00', '#56B4E9', '#F0E442']
+    for index, experiment in enumerate(args.experiments):
+        color = palette[index % len(palette)]
         for split, style in (('train', '--'), ('dev', '-')):
             for axis, metric in zip(axes, ('loss', 'accuracy')):
-                values = np.array([[r[f'{split}_{metric}'] for r in histories[experiment, seed]] for seed in (17, 29, 43)])
+                values = np.array([[r[f'{split}_{metric}'] for r in histories[experiment, seed]] for seed in args.seeds])
                 mean, std = values.mean(axis=0), values.std(axis=0, ddof=1)
-                axis.plot(range(1, 21), mean, style, color=color, label=f'{experiment} {split}')
+                epochs = np.arange(1, len(mean) + 1)
+                axis.plot(epochs, mean, style, color=color, label=f'{experiment} {split}')
                 if split == 'dev':
-                    axis.fill_between(range(1, 21), mean-std, mean+std, color=color, alpha=0.12)
+                    axis.fill_between(epochs, mean-std, mean+std, color=color, alpha=0.12)
     for axis, title in zip(axes, ('Loss', 'Accuracy')):
-        axis.set(xlabel='Epoch', ylabel=title, xlim=(1, 20), title=title+' (mean of 3 seeds)')
+        axis.set(xlabel='Epoch', ylabel=title, xlim=(1, max(len(h) for h in histories.values())),
+                 title=title + f' (mean of {len(args.seeds)} seeds)')
         axis.grid(alpha=0.2)
         axis.legend()
     figure.savefig(output/'training_curves.png', dpi=240)

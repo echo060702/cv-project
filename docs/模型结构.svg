@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="560" viewBox="0 0 1180 560">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#45566d"/></marker></defs>
+<rect width="1180" height="560" fill="#f5f7fb"/>
+<g font-family="Microsoft YaHei, sans-serif" fill="#172b45">
+<text x="40" y="47" font-size="26" font-weight="bold">从零训练：RGB 与局部残差融合</text>
+<text x="40" y="78" font-size="16">共享模型实现 · 默认 width=32 · 无预训练权重 · 正常/JPEG两视图共享同一模型</text>
+<g fill="white" stroke="#8094ad" stroke-width="1.5">
+<rect x="40" y="205" width="170" height="92" rx="12"/>
+<rect x="265" y="130" width="260" height="100" rx="12"/>
+<rect x="580" y="130" width="175" height="100" rx="12"/>
+<rect x="265" y="310" width="260" height="100" rx="12"/>
+<rect x="580" y="310" width="175" height="100" rx="12"/>
+<rect x="820" y="210" width="150" height="100" rx="12"/>
+<rect x="1010" y="210" width="130" height="100" rx="12"/>
+</g>
+<g font-size="17" text-anchor="middle">
+<text x="125" y="239">原始 RGB</text><text x="125" y="268" font-size="14">B × 3 × 224 × 224</text>
+<text x="395" y="162">训练均值方差归一化</text><text x="395" y="191">4阶段 × 2残差块</text><text x="395" y="216" font-size="14">通道 32 / 64 / 128 / 256</text>
+<text x="667" y="173">全局平均池化</text><text x="667" y="203">256维</text>
+<text x="395" y="344">x − BoxBlur3×3(x)</text><text x="395" y="373">3层轻量卷积</text><text x="395" y="397" font-size="14">通道 32 / 64 / 128</text>
+<text x="667" y="353">全局平均池化</text><text x="667" y="383">128维</text>
+<text x="895" y="250">拼接 384维</text><text x="895" y="280">线性分类头</text>
+<text x="1075" y="250">单个 logit</text><text x="1075" y="280" font-size="14">sigmoid = AI概率</text>
+</g>
+<g fill="none" stroke="#45566d" stroke-width="2" marker-end="url(#a)">
+<path d="M210 235 H235 V180 H265"/><path d="M210 265 H235 V360 H265"/>
+<path d="M525 180 H580"/><path d="M525 360 H580"/>
+<path d="M755 180 H790 V240 H820"/><path d="M755 360 H790 V280 H820"/>
+<path d="M970 260 H1010"/>
+</g>
+<text x="40" y="466" font-size="17">公平容量对照：下分支输入改为归一化 RGB，辅助网络与分类头完全相同。</text>
+<text x="40" y="500" font-size="17">损失：两视图监督 BCE 的平均 + λ(t) × JS 预测一致性；无一致性组 λ=0。</text>
+<text x="40" y="533" font-size="14" fill="#536982">结构总参数：融合 2,888,897；单 RGB 2,795,297。图示为方法结构，不表示实验收益已验证。</text>
+</g></svg>

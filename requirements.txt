@@ -1,0 +1,5 @@
+# Python 3.12; install the desired CPU/CUDA torch wheel first (see README).
+torch==2.5.1
+numpy==2.4.4
+Pillow==12.2.0
+matplotlib==3.11.1

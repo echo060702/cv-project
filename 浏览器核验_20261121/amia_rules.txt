@@ -1,0 +1,37 @@
+Skip to content -> https://www.kaggle.com/competitions/amia-public-challenge-2026/rules#site-content
+Skip to
+content
+Return to Kaggle home page -> https://www.kaggle.com/
+Create
+Home -> https://www.kaggle.com/
+Home
+Competitions -> https://www.kaggle.com/competitions
+Competitions
+Benchmarks -> https://www.kaggle.com/benchmarks
+Benchmarks
+Arenas -> https://www.kaggle.com/arenas
+Arenas
+Game Arena -> https://www.kaggle.com/game-arena
+Game Arena
+Data Hub -> https://www.kaggle.com/competitions/amia-public-challenge-2026/rules#
+Data Hub
+More on Kaggle -> https://www.kaggle.com/competitions/amia-public-challenge-2026/rules#
+More
+Login -> https://www.kaggle.com/account/login?phase=startSignInTab&returnUrl=%2Fcompetitions%2Famia-public-challenge-2026%2Frules
+Sign Up -> https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2Fcompetitions%2Famia-public-challenge-2026%2Frules
+AMIA Public Challenge 2026
+AMIA Public Challenge 2026
+AMIA public challenge 2026
+Overview, 1 of 7
+Data, 2 of 7
+Code, 3 of 7
+Models, 4 of 7
+Discussion, 5 of 7
+Leaderboard, 6 of 7
+Rules, 7 of 7
+Competition Rules
+Competition Rules
+The Rules for AMIA challenge.
+Provide classification for each image according to the classes of the challenge.
+Rules
+Competition Rules, 1 of 1

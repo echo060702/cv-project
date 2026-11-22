@@ -1,0 +1,193 @@
+Skip to content -> https://www.kaggle.com/competitions/amia-public-challenge-2026/data#site-content
+Skip to
+content
+Return to Kaggle home page -> https://www.kaggle.com/
+Create
+Home -> https://www.kaggle.com/
+Home
+Competitions -> https://www.kaggle.com/competitions
+Competitions
+Benchmarks -> https://www.kaggle.com/benchmarks
+Benchmarks
+Arenas -> https://www.kaggle.com/arenas
+Arenas
+Game Arena -> https://www.kaggle.com/game-arena
+Game Arena
+Data Hub -> https://www.kaggle.com/competitions/amia-public-challenge-2026/data#
+Data Hub
+More on Kaggle -> https://www.kaggle.com/competitions/amia-public-challenge-2026/data#
+More
+Login -> https://www.kaggle.com/account/login?phase=startSignInTab&returnUrl=%2Fcompetitions%2Famia-public-challenge-2026%2Fdata
+Sign Up -> https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2Fcompetitions%2Famia-public-challenge-2026%2Fdata
+Robert Martí's profile -> https://www.kaggle.com/robertmart
+Go to profile for Robert Martí -> https://www.kaggle.com/robertmart
+Robert Martí
+· 
+Community Prediction Competition
+ · 
+5 months ago
+AMIA Public Challenge 2026
+AMIA Public Challenge 2026
+AMIA public challenge 2026
+Overview, 1 of 7
+Data, 2 of 7
+Code, 3 of 7
+Models, 4 of 7
+Discussion, 5 of 7
+Leaderboard, 6 of 7
+Rules, 7 of 7
+Dataset Description
+Dataset Description
+In this competition, we are classifying common thoracic lung diseases and localizing critical findings. This is an object detection and classification problem.
+For each test image, you will be predicting a bounding box and class for all findings. If you predict that there are no findings, you should create a prediction of "14 1 0 0 1 1" (14 is the class ID for no finding, and this provides a one-pixel bounding box with a confidence of 1.0).
+The images are in PNG format (already converted from DICOM for you) and resized to 1024x1024 pixels.
+Dataset information
+Dataset information
+The dataset comprises 15,000 postero-anterior (PA) CXR scans in PNG format. All images were labeled by a panel of experienced radiologists for the presence of 14 critical radiographic findings as listed below:
+0 
+- Aortic enlargement
+
+1 
+- Atelectasis
+
+2 
+- Calcification
+
+3 
+- Cardiomegaly
+
+4 
+- Consolidation
+
+5 
+- ILD
+
+6 
+- Infiltration
+
+7 
+- Lung Opacity
+
+8 
+- Nodule/Mass
+
+9 
+- Other lesion
+
+10 
+- Pleural effusion
+
+11 
+- Pleural thickening
+
+12 
+- Pneumothorax
+
+13 
+- Pulmonary fibrosis
+
+The "No finding" observation (14) was intended to capture the absence of all findings above.
+Note that a key part of this competition is working with ground truth from multiple radiologists.
+Files
+Files
+• 
+train.csv
+ - the train set metadata, with one row for each object, including a class and a bounding box. Some images in both test and train have multiple objects (several rows with respect the same image).
+• 
+test.csv
+ - the test set metadata, only containing the filenames.
+• 
+img_size.csv
+ - the original dimensions of the files: dim0 is the height and dim1 is the width.
+• 
+sample_submission.csv
+ - sample submission (similar to test.csv) with dummy results.
+Columns
+Columns
+image_id - 
+unique
+ image identifier
+class_name - the 
+name
+of
+ the 
+class
+of
+ detected 
+object
+ (
+or
+ "No finding")
+class_id - the ID 
+of
+ the 
+class
+of
+ detected 
+object
+
+rad_id - the ID 
+of
+ the radiologist that made the observation
+x_min - minimum X coordinate 
+of
+ the 
+object
+'s bounding box
+y_min - minimum Y coordinate of the object'
+s bounding 
+box
+
+x_max - maximum X coordinate 
+of
+ the 
+object
+'s bounding box
+y_max - maximum Y coordinate of the object'
+s bounding 
+box
+Files
+Files
+15004
+ files
+Size
+Size
+6.59 GB
+Type
+Type
+png, csv
+License
+License
+CC BY-NC-SA 4.0 opens in new window -> https://creativecommons.org/licenses/by-nc-sa/4.0/
+CC BY-NC-SA 4.0
+img_size.csv(660.02 kB)
+img_size.csv
+(
+660.02 kB
+)
+Unable to show preview
+Unable to show preview
+Failed to load columns
+Data Explorer
+Data Explorer
+6.59 GB
+test
+train
+img_size.csv
+sample_submission.csv
+test.csv
+train.csv
+Summary
+Summary
+arrow_right
+folder
+15.0k files
+arrow_right
+calendar_view_week
+14 columns
+Metadata
+Metadata
+License
+License
+CC BY-NC-SA 4.0 opens in new window -> https://creativecommons.org/licenses/by-nc-sa/4.0/
+CC BY-NC-SA 4.0

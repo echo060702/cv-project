@@ -1,0 +1,13 @@
+# 官方图像与原始压缩包（体积大，按 docs/仓库说明_数据与权重获取.md 获取）
+data/official/
+data/raw/dataset.zip
+# 训练权重（按需放入或从 Release 下载）
+*.pt
+# Python
+__pycache__/
+*.pyc
+.venv/
+# 本地临时
+.package-check/
+.local-data-work/
+*.zip

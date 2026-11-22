@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-11-22T16:31:03",
+  "source": "tools/progress_report.py",
+  "runs_root": "runs/baselines",
+  "scope_note": "当前进度快照：仅统计实际存在的 run；未跑满 20 epoch 的 run 不计入均值。不评价 holdout/test。",
+  "selection_rule": "dev 单 patch Accuracy 最高；并列取较低 dev BCE；再并列取较早 epoch；阈值 0.5",
+  "completed_runs": 6,
+  "total_planned_runs": 6,
+  "runs": [
+    {
+      "run": "G_seed17",
+      "experiment": "G",
+      "seed": 17,
+      "data_kind": "official",
+      "epochs_done": 20,
+      "epochs_expected": 20,
+      "complete": true,
+      "last_checkpoint_epoch": 20,
+      "resumable": true,
+      "best_epoch": 18,
+      "best_dev_accuracy": 0.8041666666666667,
+      "best_dev_loss": 0.4262047864248355,
+      "seconds_total": 33031.46328869999,
+      "peak_vram_bytes": 2033601536,
+      "parameters": 2795297,
+      "artifacts": [
+        "best.pt",
+        "config.json",
+        "dev_predictions.csv",
+        "environment.json",
+        "last.pt",
+        "metadata.json",
+        "metrics.jsonl"
+      ]
+    },
+    {
+      "run": "A_seed17",
+      "experiment": "A",
+      "seed": 17,
+      "data_kind": "official",
+      "epochs_done": 20,
+      "epochs_expected": 20,
+      "complete": true,
+      "last_checkpoint_epoch": 20,
+      "resumable": true,
+      "best_epoch": 19,
+      "best_dev_accuracy": 0.8708333333333333,
+      "best_dev_loss": 0.30963602354129155,
+      "seconds_total": 2500.4682519000053,
+      "peak_vram_bytes": 2033601536,
+      "parameters": 2795297,
+      "artifacts": [
+        "best.pt",
+        "config.json",
+        "dev_predictions.csv",
+        "environment.json",
+        "last.pt",
+        "metadata.json",
+        "metrics.jsonl"
+      ]
+    },
+    {
+      "run": "G_seed29",
+      "experiment": "G",
+      "seed": 29,
+      "data_kind": "official",
+      "epochs_done": 20,
+      "epochs_expected": 20,
+      "complete": true,
+      "last_checkpoint_epoch": 20,
+      "resumable": true,
+      "best_epoch": 18,
+      "best_dev_accuracy": 0.805,
+      "best_dev_loss": 0.43489560400446253,
+      "seconds_total": 2660.9073023000237,
+      "peak_vram_bytes": 2033601536,
+      "parameters": 2795297,
+      "artifacts": [
+        "best.pt",
+        "config.json",
+        "dev_predictions.csv",
+        "environment.json",
+        "last.pt",
+        "metadata.json",
+        "metrics.jsonl"
+      ]
+    },
+    {
+      "run": "A_seed29",
+      "experiment": "A",
+      "seed": 29,
+      "data_kind": "official",
+      "epochs_done": 20,
+      "epochs_expected": 20,
+      "complete": true,
+      "last_checkpoint_epoch": 20,
+      "resumable": true,
+      "best_epoch": 18,
+      "best_dev_accuracy": 0.91,
+      "best_dev_loss": 0.24599859635035196,
+      "seconds_total": 3057.8072426,
+      "peak_vram_bytes": 2033601536,
+      "parameters": 2795297,
+      "artifacts": [
+        "best.pt",
+        "config.json",
+        "dev_predictions.csv",
+        "environment.json",
+        "last.pt",
+        "metadata.json",
+        "metrics.jsonl"
+      ]
+    },
+    {
+      "run": "G_seed43",
+      "experiment": "G",
+      "seed": 43,
+      "data_kind": "official",
+      "epochs_done": 20,
+      "epochs_expected": 20,
+      "complete": true,
+      "last_checkpoint_epoch": 20,
+      "resumable": true,
+      "best_epoch": 20,
+      "best_dev_accuracy": 0.805,
+      "best_dev_loss": 0.4376776948198676,
+      "seconds_total": 2537.9295813999925,
+      "peak_vram_bytes": 2033601536,
+      "parameters": 2795297,
+      "artifacts": [
+        "best.pt",
+        "config.json",
+        "dev_predictions.csv",
+        "environment.json",
+        "last.pt",
+        "metadata.json",
+        "metrics.jsonl"
+      ]
+    },
+    {
+      "run": "A_seed43",
+      "experiment": "A",
+      "seed": 43,
+      "data_kind": "official",
+      "epochs_done": 20,
+      "epochs_expected": 20,
+      "complete": true,
+      "last_checkpoint_epoch": 20,
+      "resumable": true,
+      "best_epoch": 19,
+      "best_dev_accuracy": 0.8608333333333333,
+      "best_dev_loss": 0.34281939536333084,
+      "seconds_total": 2900.1884557000303,
+      "peak_vram_bytes": 2033601536,
+      "parameters": 2795297,
+      "artifacts": [
+        "best.pt",
+        "config.json",
+        "dev_predictions.csv",
+        "environment.json",
+        "last.pt",
+        "metadata.json",
+        "metrics.jsonl"
+      ]
+    }
+  ],
+  "pending": [],
+  "per_experiment_completed": {
+    "G": {
+      "count": 3,
+      "mean": 0.8047222222222222,
+      "std": 0.0004811252243246992
+    },
+    "A": {
+      "count": 3,
+      "mean": 0.8805555555555555,
+      "std": 0.025985216594854123
+    }
+  },
+  "all_runs_complete": true
+}

@@ -1,0 +1,16 @@
+{
+  "mean": [
+    0.483540257900021,
+    0.4582051969041862,
+    0.4047918501140485
+  ],
+  "std": [
+    0.2704875318761633,
+    0.26257786971024577,
+    0.2766712322681402
+  ],
+  "image_count": 5600,
+  "method": "equal-image RGB moments after EXIF/RGB and bilinear 128x128 resize",
+  "split_sha256": "5b2303b63c94085d65c1c33029a2a541b056444b3544ab213057ec05d4d5348f",
+  "all_labeled": false
+}

@@ -1,0 +1,158 @@
+{
+  "source": "协作任务板.csv",
+  "updated": "2026-11-22",
+  "tasks": [
+    {
+      "task_id": "D01",
+      "owner": "成员1",
+      "task": "官方数据访问与训练数据审计",
+      "depends_on": "无",
+      "deliverable": "审计报告与数据位置",
+      "status": "已完成_8000训练图审计与1000无标签test隔离交接"
+    },
+    {
+      "task_id": "D02",
+      "owner": "成员1",
+      "task": "重复分组与固定清单",
+      "depends_on": "D01",
+      "deliverable": "data/splits.csv及SHA256",
+      "status": "已完成_5600_1200_1200及SHA256冻结"
+    },
+    {
+      "task_id": "D03",
+      "owner": "成员1",
+      "task": "正式配对数据适配器",
+      "depends_on": "D02",
+      "deliverable": "team_data.py及变换版本",
+      "status": "已完成_正式配对模块与train统计"
+    },
+    {
+      "task_id": "M01",
+      "owner": "成员2",
+      "task": "模型与损失实现",
+      "depends_on": "无",
+      "deliverable": "cvdetect/model.py及losses.py",
+      "status": "已有共享工程已验证_成员2接续维护非贡献追认"
+    },
+    {
+      "task_id": "M02",
+      "owner": "成员2",
+      "task": "训练恢复与加载",
+      "depends_on": "M01",
+      "deliverable": "engine.py及train.py及inference.py",
+      "status": "已有共享工程已验证_成员2接续维护非贡献追认"
+    },
+    {
+      "task_id": "M03",
+      "owner": "成员2",
+      "task": "七组配置与真实训练预算",
+      "depends_on": "D03",
+      "deliverable": "configs及预算冻结记录",
+      "status": "已完成_train实测后统一冻结20epoch"
+    },
+    {
+      "task_id": "M04",
+      "owner": "成员2",
+      "task": "B/C/D三种子正式训练",
+      "depends_on": "M03",
+      "deliverable": "9组official日志及checkpoint",
+      "status": "可开始_无需G_A_直接做B/C/D"
+    },
+    {
+      "task_id": "D04",
+      "owner": "成员1",
+      "task": "G_A各三种子正式基线",
+      "depends_on": "M03",
+      "deliverable": "6组official日志及checkpoint",
+      "status": "已完成_六次各20epoch_汇总已核验"
+    },
+    {
+      "task_id": "D05",
+      "owner": "成员1",
+      "task": "数据与G_A基线章节",
+      "depends_on": "D01+D02+D03+D04",
+      "deliverable": "docs/数据与基线章节草稿.md",
+      "status": "已完成_数据素材与G_A结果分析稿_待成员3整合正式论文"
+    },
+    {
+      "task_id": "M07",
+      "owner": "成员1",
+      "task": "G_A基线结果核验与分析",
+      "depends_on": "D04+D05",
+      "deliverable": "results/handoff/progress.json及续跑说明",
+      "status": "已完成_六套checkpoint重放通过_结果与分析稿已交付"
+    },
+    {
+      "task_id": "M08",
+      "owner": "成员2",
+      "task": "B/C/D各三种子正式运行",
+      "depends_on": "D04",
+      "deliverable": "2组official日志及checkpoint",
+      "status": "可开始_共享工程与六次基线结果已交付"
+    },
+    {
+      "task_id": "D06",
+      "owner": "成员2",
+      "task": "评估冻结后准备全量有标签refit数据",
+      "depends_on": "E03",
+      "deliverable": "build_refit_loaders及全量清单",
+      "status": "工具与接口已实现_等待E03_不得提前执行"
+    },
+    {
+      "task_id": "E01",
+      "owner": "成员3",
+      "task": "E/F三种子正式训练",
+      "depends_on": "M03",
+      "deliverable": "6组official日志及checkpoint",
+      "status": "可开始"
+    },
+    {
+      "task_id": "E02",
+      "owner": "成员3",
+      "task": "独立评价与图表接口",
+      "depends_on": "无",
+      "deliverable": "team_eval.py及结果表",
+      "status": "待开始"
+    },
+    {
+      "task_id": "E03",
+      "owner": "成员3",
+      "task": "开发汇总与冻结确认评估",
+      "depends_on": "M04+D04+E01+E02",
+      "deliverable": "汇总结果及冻结文件",
+      "status": "待开始"
+    },
+    {
+      "task_id": "M05",
+      "owner": "成员2",
+      "task": "最终全量有标签模型",
+      "depends_on": "E03+D06",
+      "deliverable": "official final.pt及训练记录",
+      "status": "入口已实现真实训练未执行"
+    },
+    {
+      "task_id": "M06",
+      "owner": "成员2",
+      "task": "方法章节和结构图",
+      "depends_on": "M01+M02",
+      "deliverable": "docs/模型训练_方法章节草稿.md及架构图",
+      "status": "共享方法稿已交付_待正式结果"
+    },
+    {
+      "task_id": "E04",
+      "owner": "成员3",
+      "task": "CSV与论文展示整合",
+      "depends_on": "E03+M05+各人初稿",
+      "deliverable": "预测CSV及论文PDF及展示",
+      "status": "待开始"
+    },
+    {
+      "task_id": "P01",
+      "owner": "成员1",
+      "task": "含六次正式成果的完整交接包及两轮核验",
+      "depends_on": "D04+D05+M07",
+      "deliverable": "新版ZIP及MANIFEST及核验报告",
+      "status": "已完成_六套run与汇总入包_两轮核验通过"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "images": 8000,
+  "labels": {
+    "0": 4000,
+    "1": 4000
+  },
+  "errors": 0,
+  "modes": {
+    "RGB": 7436,
+    "L": 63,
+    "CMYK": 1,
+    "RGBA": 500
+  },
+  "formats": {
+    "JPEG": 4000,
+    "PNG": 4000
+  },
+  "file_sha256_unique": 8000,
+  "pixel_sha256_unique": 8000,
+  "near_duplicate_rule": "64-bit DCT pHash Hamming <=4, candidate screen only",
+  "near_duplicate_candidates": 0,
+  "below224": 813,
+  "by_label": {
+    "0": {
+      "formats": {
+        "JPEG": 4000
+      },
+      "below224": 313
+    },
+    "1": {
+      "formats": {
+        "PNG": 4000
+      },
+      "below224": 500
+    }
+  }
+}

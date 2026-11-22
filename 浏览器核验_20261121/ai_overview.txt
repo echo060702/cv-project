@@ -1,0 +1,115 @@
+Skip to content -> https://www.kaggle.com/competitions/ai-generated-image-detection-benchmark#site-content
+Skip to
+content
+Return to Kaggle home page -> https://www.kaggle.com/
+Create
+Home -> https://www.kaggle.com/
+Home
+Competitions -> https://www.kaggle.com/competitions
+Competitions
+Benchmarks -> https://www.kaggle.com/benchmarks
+Benchmarks
+Arenas -> https://www.kaggle.com/arenas
+Arenas
+Game Arena -> https://www.kaggle.com/game-arena
+Game Arena
+Data Hub -> https://www.kaggle.com/competitions/ai-generated-image-detection-benchmark#
+Data Hub
+More on Kaggle -> https://www.kaggle.com/competitions/ai-generated-image-detection-benchmark#
+More
+Login -> https://www.kaggle.com/account/login?phase=startSignInTab&returnUrl=%2Fcompetitions%2Fai-generated-image-detection-benchmark
+Sign Up -> https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2Fcompetitions%2Fai-generated-image-detection-benchmark
+emilia wang's profile -> https://www.kaggle.com/emiliawang1111
+Go to profile for emilia wang -> https://www.kaggle.com/emiliawang1111
+emilia wang
+· 
+Community Prediction Competition
+ · 
+a year to go
+AI 生成图像鉴别测评榜
+AI 生成图像鉴别测评榜
+图像真伪二分类：0=真实，1=AI 生成。任意队伍可参与，仅提交 CSV，按全部 1,000 张测试图像的 Accuracy 在线测评。
+Overview, 1 of 7
+Data, 2 of 7
+Code, 3 of 7
+Models, 4 of 7
+Discussion, 5 of 7
+Leaderboard, 6 of 7
+Rules, 7 of 7
+Overview
+Overview
+区分真实图像与 AI 生成图像。任意个人或队伍可参与，仅提交 CSV，按 Accuracy 在线测评。
+Start
+2 days ago
+Close
+a year to go
+Description
+Description
+本任务为图像真伪二分类：
+0 表示真实图像，1 表示 AI 生成图像
+。
+训练集共 8,000 张图像，两类各 4,000 张；测试集共 1,000 张，两类各 500 张。请自行划分训练集与验证集，并预测测试图像的类别。
+下载数据（Hugging Face） (opens in a new tab) -> https://huggingface.co/datasets/emiliiia/ai-generated-image-detection-benchmark
+下载数据（Hugging Face）
+仅提交预测 CSV，无需代码、权重或报告。
+Evaluation
+Evaluation
+采用 
+Accuracy（准确率）
+：预测正确的图像数 ÷ 1,000，分数越高越好。
+上传 
+result.csv
+，包含 
+image_id
+ 和 
+label
+ 两列，共 1,000 条预测。文件名须与测试集一致，标签只能为 0 或 1。
+image_id,
+label
+
+image_0001
+.jpg
+,
+0
+
+image_0002
+.jpg
+,
+1
+
+image_0003
+.jpg
+,
+0
+以上标签仅为格式示例，可直接填写 
+sample_submission.csv
+ 后提交。
+Citation
+Citation
+emilia wang. AI 生成图像鉴别测评榜. https://www.kaggle.com/competitions/ai-generated-image-detection-benchmark, 2026. Kaggle.
+Competition Host
+Competition Host
+emilia wang
+emilia wang's profile -> https://www.kaggle.com/emiliawang1111
+Prizes & Awards
+Prizes & Awards
+Kudos
+Does not award Points or Medals
+Participation
+Participation
+7
+Entrants
+3
+Participants
+3
+Teams
+17
+Submissions
+Tags
+Tags
+Accuracy Score
+Table of Contents
+Overview, 1 of 4
+Description, 2 of 4
+Evaluation, 3 of 4
+Citation, 4 of 4

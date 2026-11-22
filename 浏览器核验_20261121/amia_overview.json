@@ -1,0 +1,3217 @@
+{
+  "date": "2026-11-21",
+  "method": "agent-desktop accessibility tree",
+  "snapshot_id": "s5n5x5ox7begb",
+  "documents": [
+    {
+      "available_actions": [
+        "Scroll",
+        "ScrollTo",
+        "SetFocus"
+      ],
+      "children": [
+        {
+          "available_actions": [
+            "Click",
+            "ScrollTo"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "ScrollTo"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "description": "Navigation menu",
+                      "name": "Navigation menu",
+                      "placeholder": "Navigation menu",
+                      "ref_id": "@s5n5x5ox7begb:e103",
+                      "role": "button",
+                      "role_description": "按钮",
+                      "subrole": "button"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo",
+                    "SetFocus"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Skip to",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "content",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "description"
+                    }
+                  ],
+                  "name": "Skip to content",
+                  "ref_id": "@s5n5x5ox7begb:e104",
+                  "role": "link",
+                  "role_description": "链接",
+                  "states": [
+                    "offscreen",
+                    "readonly"
+                  ],
+                  "subrole": "link",
+                  "value": "https://www.kaggle.com/competitions/amia-public-challenge-2026/overview#site-content"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo"
+                          ],
+                          "ref_id": "@s5n5x5ox7begb:e106",
+                          "role": "image",
+                          "role_description": "未加标签的图片",
+                          "subrole": "img"
+                        }
+                      ],
+                      "name": "Return to Kaggle home page",
+                      "ref_id": "@s5n5x5ox7begb:e105",
+                      "role": "link",
+                      "role_description": "链接",
+                      "states": [
+                        "readonly"
+                      ],
+                      "subrole": "link",
+                      "value": "https://www.kaggle.com/"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "Expand",
+                    "Collapse",
+                    "ScrollTo",
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "Create",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    }
+                  ],
+                  "name": "Create on Kaggle",
+                  "ref_id": "@s5n5x5ox7begb:e107",
+                  "role": "menubutton",
+                  "role_description": "按钮",
+                  "subrole": "button"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "Home",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "Home",
+                                          "ref_id": "@s5n5x5ox7begb:e109",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "Home List Item",
+                                  "ref_id": "@s5n5x5ox7begb:e108",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "Competitions",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "Competitions",
+                                          "ref_id": "@s5n5x5ox7begb:e111",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/competitions"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "Competitions List Item",
+                                  "ref_id": "@s5n5x5ox7begb:e110",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "Benchmarks",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "Benchmarks",
+                                          "ref_id": "@s5n5x5ox7begb:e113",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/benchmarks"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "Benchmarks List Item",
+                                  "ref_id": "@s5n5x5ox7begb:e112",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "Arenas",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "Arenas",
+                                          "ref_id": "@s5n5x5ox7begb:e115",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/arenas"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "Arenas List Item",
+                                  "ref_id": "@s5n5x5ox7begb:e114",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "Game Arena",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "Game Arena",
+                                          "ref_id": "@s5n5x5ox7begb:e117",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/game-arena"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "Game Arena List Item",
+                                  "ref_id": "@s5n5x5ox7begb:e116",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                }
+                              ],
+                              "role": "list",
+                              "role_description": "列表",
+                              "subrole": "list"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "Expand",
+                                            "Collapse",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "Data Hub",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "Data Hub",
+                                          "ref_id": "@s5n5x5ox7begb:e119",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/competitions/amia-public-challenge-2026/overview#"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "description": "Expand",
+                                          "name": "Expand",
+                                          "placeholder": "Expand",
+                                          "ref_id": "@s5n5x5ox7begb:e120",
+                                          "role": "button",
+                                          "role_description": "按钮",
+                                          "subrole": "button"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "Data Hub List Item",
+                                  "ref_id": "@s5n5x5ox7begb:e118",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                }
+                              ],
+                              "role": "list",
+                              "role_description": "列表",
+                              "subrole": "list"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "Expand",
+                                            "Collapse",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "More",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "More on Kaggle",
+                                          "ref_id": "@s5n5x5ox7begb:e122",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/competitions/amia-public-challenge-2026/overview#"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "description": "Expand",
+                                          "name": "Expand",
+                                          "placeholder": "Expand",
+                                          "ref_id": "@s5n5x5ox7begb:e123",
+                                          "role": "button",
+                                          "role_description": "按钮",
+                                          "subrole": "button"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "More on Kaggle List Item",
+                                  "ref_id": "@s5n5x5ox7begb:e121",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                }
+                              ],
+                              "role": "list",
+                              "role_description": "列表",
+                              "subrole": "list"
+                            }
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                }
+              ],
+              "name": "Main Kaggle page navigation",
+              "ref_id": "@s5n5x5ox7begb:e102",
+              "role": "group",
+              "role_description": "导航",
+              "subrole": "navigation"
+            },
+            {
+              "available_actions": [
+                "ScrollTo"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "SetValue",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "description": "Search",
+                              "name": "Search",
+                              "native_id": {
+                                "kind": "automation_id",
+                                "value": ":rb:"
+                              },
+                              "ref_id": "@s5n5x5ox7begb:e126",
+                              "role": "textfield",
+                              "role_description": "编辑",
+                              "subrole": "textbox"
+                            }
+                          ],
+                          "ref_id": "@s5n5x5ox7begb:e125",
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        }
+                      ],
+                      "ref_id": "@s5n5x5ox7begb:e124",
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "name": "Login",
+                          "ref_id": "@s5n5x5ox7begb:e128",
+                          "role": "button",
+                          "role_description": "按钮",
+                          "subrole": "button"
+                        }
+                      ],
+                      "name": "Login",
+                      "ref_id": "@s5n5x5ox7begb:e127",
+                      "role": "link",
+                      "role_description": "链接",
+                      "states": [
+                        "readonly"
+                      ],
+                      "subrole": "link",
+                      "value": "https://www.kaggle.com/account/login?phase=startSignInTab&returnUrl=%2Fcompetitions%2Famia-public-challenge-2026%2Foverview"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "name": "Sign Up",
+                          "ref_id": "@s5n5x5ox7begb:e130",
+                          "role": "button",
+                          "role_description": "按钮",
+                          "subrole": "button"
+                        }
+                      ],
+                      "name": "Sign Up",
+                      "ref_id": "@s5n5x5ox7begb:e129",
+                      "role": "link",
+                      "role_description": "链接",
+                      "states": [
+                        "readonly"
+                      ],
+                      "subrole": "link",
+                      "value": "https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2Fcompetitions%2Famia-public-challenge-2026%2Foverview"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                }
+              ],
+              "name": "Main menu, search and your account",
+              "role": "group",
+              "role_description": "导航",
+              "subrole": "navigation"
+            },
+            {
+              "available_actions": [
+                "Scroll",
+                "ScrollTo"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "Kaggle uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "Learn more",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "Learn more",
+                      "ref_id": "@s5n5x5ox7begb:e132",
+                      "role": "link",
+                      "role_description": "链接",
+                      "states": [
+                        "readonly"
+                      ],
+                      "subrole": "link",
+                      "value": "https://www.kaggle.com/cookies"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "OK, Got it.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "ref_id": "@s5n5x5ox7begb:e133",
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo",
+                    "SetFocus"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Robert Martí",
+                      "placeholder": "Robert Martí",
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "role": "image",
+                      "role_description": "图形",
+                      "subrole": "img"
+                    }
+                  ],
+                  "name": "Robert Martí's profile",
+                  "ref_id": "@s5n5x5ox7begb:e134",
+                  "role": "link",
+                  "role_description": "链接",
+                  "states": [
+                    "readonly"
+                  ],
+                  "subrole": "link",
+                  "value": "https://www.kaggle.com/robertmart"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo",
+                    "SetFocus"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Robert Martí",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "name": "Go to profile for Robert Martí",
+                  "ref_id": "@s5n5x5ox7begb:e135",
+                  "role": "link",
+                  "role_description": "链接",
+                  "states": [
+                    "readonly"
+                  ],
+                  "subrole": "link",
+                  "value": "https://www.kaggle.com/robertmart"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "role": "statictext",
+                  "role_description": "文本",
+                  "subrole": "description"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "name": "· ",
+                  "role": "statictext",
+                  "role_description": "文本",
+                  "subrole": "description"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "name": "Community Prediction Competition",
+                  "role": "statictext",
+                  "role_description": "文本",
+                  "subrole": "description"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "name": " · ",
+                  "role": "statictext",
+                  "role_description": "文本",
+                  "subrole": "description"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "5 months ago",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "description": "Mon Jun 15 2026 05:55:00 GMT+0800 (中国标准时间)",
+                  "name": "5 months ago",
+                  "placeholder": "Mon Jun 15 2026 05:55:00 GMT+0800 (中国标准时间)",
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo",
+                    "SetFocus"
+                  ],
+                  "name": "Late Submission",
+                  "ref_id": "@s5n5x5ox7begb:e136",
+                  "role": "button",
+                  "role_description": "按钮",
+                  "states": [
+                    "disabled"
+                  ],
+                  "subrole": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo",
+                    "SetFocus"
+                  ],
+                  "description": "Competition Options",
+                  "name": "Competition options menu collapsed",
+                  "placeholder": "Competition Options",
+                  "ref_id": "@s5n5x5ox7begb:e137",
+                  "role": "button",
+                  "role_description": "按钮",
+                  "subrole": "button"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "AMIA Public Challenge 2026",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "name": "AMIA Public Challenge 2026",
+                  "role": "statictext",
+                  "role_description": "标题",
+                  "subrole": "heading"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "AMIA public challenge 2026",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo"
+                      ],
+                      "name": "要获取缺失的图片说明，请打开上下文菜单。",
+                      "ref_id": "@s5n5x5ox7begb:e138",
+                      "role": "image",
+                      "role_description": "未加标签的图片",
+                      "subrole": "img"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "states": [
+                    "offscreen"
+                  ],
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Overview, 1 of 7",
+                          "ref_id": "@s5n5x5ox7begb:e139",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "states": [
+                            "selected"
+                          ],
+                          "subrole": "tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Data, 2 of 7",
+                          "ref_id": "@s5n5x5ox7begb:e140",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "subrole": "tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Code, 3 of 7",
+                          "ref_id": "@s5n5x5ox7begb:e141",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "subrole": "tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Models, 4 of 7",
+                          "ref_id": "@s5n5x5ox7begb:e142",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "subrole": "tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Discussion, 5 of 7",
+                          "ref_id": "@s5n5x5ox7begb:e143",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "subrole": "tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Leaderboard, 6 of 7",
+                          "ref_id": "@s5n5x5ox7begb:e144",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "subrole": "tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Rules, 7 of 7",
+                          "ref_id": "@s5n5x5ox7begb:e145",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "subrole": "tab"
+                        }
+                      ],
+                      "role": "tablist",
+                      "role_description": "选项卡",
+                      "subrole": "tablist"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "role": "separator",
+                  "role_description": "分隔符",
+                  "subrole": "separator"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "Overview",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "Overview",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "Challenge based on a sub-set of the Ving Big Data Chest X-ray Challenge",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "subrole": "description"
+                            }
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection/",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "subrole": "description"
+                                }
+                              ],
+                              "name": "https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection/ (opens in a new tab)",
+                              "ref_id": "@s5n5x5ox7begb:e147",
+                              "role": "link",
+                              "role_description": "链接",
+                              "states": [
+                                "readonly"
+                              ],
+                              "subrole": "link",
+                              "value": "https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection/"
+                            }
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        }
+                      ],
+                      "ref_id": "@s5n5x5ox7begb:e146",
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "Start",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Apr 14, 2026",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "Close",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Jun 15, 2026",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "automation_id",
+                    "value": "abstract"
+                  },
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "Description",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "subrole": "description"
+                                }
+                              ],
+                              "name": "Description",
+                              "role": "statictext",
+                              "role_description": "标题",
+                              "subrole": "heading"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "description": "Copy link",
+                              "name": "Copy link",
+                              "placeholder": "Copy link",
+                              "ref_id": "@s5n5x5ox7begb:e149",
+                              "role": "button",
+                              "role_description": "按钮",
+                              "subrole": "button"
+                            }
+                          ],
+                          "native_id": {
+                            "kind": "automation_id",
+                            "value": "Description"
+                          },
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "Expand",
+                            "Collapse",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "description": "Collapse",
+                          "name": "Collapse ",
+                          "placeholder": "Collapse ",
+                          "ref_id": "@s5n5x5ox7begb:e150",
+                          "role": "menubutton",
+                          "role_description": "按钮",
+                          "states": [
+                            "expanded"
+                          ],
+                          "subrole": "button"
+                        }
+                      ],
+                      "ref_id": "@s5n5x5ox7begb:e148",
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "In this competition, you have to automatically localize and classify 14 types of thoracic abnormalities from chest radiographs. The subset is based on a dataset consisting of a total of 15,000 scans that have been annotated by experienced radiologists. From those, 8,573 images have been used for training and 6,427 images for testing. The train csv contains 45,925 rows and the test csv 21,989.",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "subrole": "description"
+                            }
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "Details on building the dataset can be found in our recent paper “VinDr-CXR: An open dataset of chest X-rays with radiologist's annotations”.",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "subrole": "description"
+                            }
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        }
+                      ],
+                      "ref_id": "@s5n5x5ox7begb:e151",
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "automation_id",
+                    "value": "description"
+                  },
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "Evaluation",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                }
+                              ],
+                              "name": "Evaluation",
+                              "role": "statictext",
+                              "role_description": "标题",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "heading"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "description": "Copy link",
+                              "name": "Copy link",
+                              "placeholder": "Copy link",
+                              "ref_id": "@s5n5x5ox7begb:e153",
+                              "role": "button",
+                              "role_description": "按钮",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "button"
+                            }
+                          ],
+                          "native_id": {
+                            "kind": "automation_id",
+                            "value": "Evaluation"
+                          },
+                          "role": "group",
+                          "role_description": "组",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "Expand",
+                            "Collapse",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "description": "Collapse",
+                          "name": "Collapse ",
+                          "placeholder": "Collapse ",
+                          "ref_id": "@s5n5x5ox7begb:e154",
+                          "role": "menubutton",
+                          "role_description": "按钮",
+                          "states": [
+                            "offscreen",
+                            "expanded"
+                          ],
+                          "subrole": "button"
+                        }
+                      ],
+                      "ref_id": "@s5n5x5ox7begb:e152",
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "The challenge uses the standard PASCAL VOC 2010 mean Average Precision (mAP) at IoU > 0.4.",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "Submission File",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "Submission File",
+                          "role": "statictext",
+                          "role_description": "标题",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "heading"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "Images in the test set may contain more than one object. For each object in a given test image, you must predict a class ID, confidence score, and bounding box in format xmin ymin xmax ymax. If you predict that there are NO objects in a given image, you should predict 14 1.0 0 0 1 1, where 14 is the class ID for \"No finding\", 1.0 is the confidence, and 0 0 1 1 is a one-pixel bounding box.",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "The submission file should contain a header and have the following format:",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "image_id",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": ",PredictionString\n",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "004f33259ee4aef671c2b95d54e4be68",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": ",",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "14",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "1",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "0",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "0",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "1",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "1",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "004f33259ee4aef671c2b95d54e4be69",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": ",",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "11",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "0",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": ".",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "5",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "100",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "100",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "200",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "200",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "13",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "0",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": ".",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "7",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "10",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "10",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "20",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "20",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "etc",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": ".\n",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                }
+                              ],
+                              "native_id": {
+                                "kind": "automation_id",
+                                "value": "code-block-1795275729105-0"
+                              },
+                              "role": "statictext",
+                              "role_description": "代码",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "code"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "role": "group",
+                              "role_description": "组",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "group"
+                            }
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "group"
+                        }
+                      ],
+                      "ref_id": "@s5n5x5ox7begb:e155",
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "automation_id",
+                    "value": "evaluation"
+                  },
+                  "role": "group",
+                  "role_description": "组",
+                  "states": [
+                    "offscreen"
+                  ],
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "Citation",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                }
+                              ],
+                              "name": "Citation",
+                              "role": "statictext",
+                              "role_description": "标题",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "heading"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "description": "Copy link",
+                              "name": "Copy link",
+                              "placeholder": "Copy link",
+                              "ref_id": "@s5n5x5ox7begb:e157",
+                              "role": "button",
+                              "role_description": "按钮",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "button"
+                            }
+                          ],
+                          "native_id": {
+                            "kind": "automation_id",
+                            "value": "citation"
+                          },
+                          "role": "group",
+                          "role_description": "组",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "Expand",
+                            "Collapse",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "description": "Collapse Citation",
+                          "name": "Collapse Citation",
+                          "placeholder": "Collapse Citation",
+                          "ref_id": "@s5n5x5ox7begb:e158",
+                          "role": "menubutton",
+                          "role_description": "按钮",
+                          "states": [
+                            "offscreen",
+                            "expanded"
+                          ],
+                          "subrole": "button"
+                        }
+                      ],
+                      "ref_id": "@s5n5x5ox7begb:e156",
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "Eloy García and Robert Martí. AMIA Public Challenge 2026. https://www.kaggle.com/competitions/amia-public-challenge-2026, 2026. Kaggle.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "name": "Cite",
+                      "ref_id": "@s5n5x5ox7begb:e159",
+                      "role": "button",
+                      "role_description": "按钮",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "button"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "automation_id",
+                    "value": "citation"
+                  },
+                  "role": "group",
+                  "role_description": "组",
+                  "states": [
+                    "offscreen"
+                  ],
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Competition Host",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "name": "Competition Host",
+                  "role": "statictext",
+                  "role_description": "标题",
+                  "subrole": "heading"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Robert Martí",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo",
+                    "SetFocus"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Robert Martí",
+                      "placeholder": "Robert Martí",
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "role": "image",
+                      "role_description": "图形",
+                      "subrole": "img"
+                    }
+                  ],
+                  "name": "Robert Martí's profile",
+                  "ref_id": "@s5n5x5ox7begb:e160",
+                  "role": "link",
+                  "role_description": "链接",
+                  "states": [
+                    "readonly"
+                  ],
+                  "subrole": "link",
+                  "value": "https://www.kaggle.com/robertmart"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Prizes & Awards",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "name": "Prizes & Awards",
+                  "role": "statictext",
+                  "role_description": "标题",
+                  "subrole": "heading"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Kudos",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Does not award Points or Medals",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Participation",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "name": "Participation",
+                  "role": "statictext",
+                  "role_description": "标题",
+                  "subrole": "heading"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "830",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Entrants",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "251",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Participants",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "217",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Teams",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "2,492",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Submissions",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Tags",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "name": "Tags",
+                  "role": "statictext",
+                  "role_description": "标题",
+                  "subrole": "heading"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "Custom Metric",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "Custom Metric opens in new window",
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    }
+                  ],
+                  "name": "Tags",
+                  "native_id": {
+                    "kind": "automation_id",
+                    "value": "combo-tags-menu-chipset"
+                  },
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "Table of Contents",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "description": "Collapse all sections",
+                      "name": "Collapse all sections",
+                      "placeholder": "Collapse all sections",
+                      "ref_id": "@s5n5x5ox7begb:e161",
+                      "role": "button",
+                      "role_description": "按钮",
+                      "subrole": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Select",
+                                    "ScrollTo",
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "name": "Overview, 1 of 4",
+                                  "native_id": {
+                                    "kind": "automation_id",
+                                    "value": "666281"
+                                  },
+                                  "ref_id": "@s5n5x5ox7begb:e163",
+                                  "role": "tab",
+                                  "role_description": "选项卡项目",
+                                  "subrole": "tab"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Select",
+                                    "ScrollTo",
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "name": "Description, 2 of 4",
+                                  "native_id": {
+                                    "kind": "automation_id",
+                                    "value": "666278"
+                                  },
+                                  "ref_id": "@s5n5x5ox7begb:e164",
+                                  "role": "tab",
+                                  "role_description": "选项卡项目",
+                                  "subrole": "tab"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Select",
+                                    "ScrollTo",
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "name": "Evaluation, 3 of 4",
+                                  "native_id": {
+                                    "kind": "automation_id",
+                                    "value": "666279"
+                                  },
+                                  "ref_id": "@s5n5x5ox7begb:e165",
+                                  "role": "tab",
+                                  "role_description": "选项卡项目",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "tab"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Select",
+                                    "ScrollTo",
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "name": "Citation, 4 of 4",
+                                  "native_id": {
+                                    "kind": "automation_id",
+                                    "value": "99999"
+                                  },
+                                  "ref_id": "@s5n5x5ox7begb:e166",
+                                  "role": "tab",
+                                  "role_description": "选项卡项目",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "tab"
+                                }
+                              ],
+                              "role": "tablist",
+                              "role_description": "选项卡",
+                              "subrole": "tablist"
+                            }
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        }
+                      ],
+                      "ref_id": "@s5n5x5ox7begb:e162",
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "补充",
+                  "subrole": "complementary"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "native_id": {
+                    "kind": "automation_id",
+                    "value": "nav-footer"
+                  },
+                  "role": "group",
+                  "role_description": "组",
+                  "states": [
+                    "offscreen"
+                  ],
+                  "subrole": "group"
+                }
+              ],
+              "native_id": {
+                "kind": "automation_id",
+                "value": "site-content"
+              },
+              "ref_id": "@s5n5x5ox7begb:e131",
+              "role": "group",
+              "role_description": "主要",
+              "subrole": "main"
+            },
+            {
+              "available_actions": [
+                "ScrollTo"
+              ],
+              "role": "statictext",
+              "role_description": "警报",
+              "states": [
+                "offscreen"
+              ],
+              "subrole": "alert"
+            }
+          ],
+          "native_id": {
+            "kind": "automation_id",
+            "value": "root"
+          },
+          "ref_id": "@s5n5x5ox7begb:e101",
+          "role": "group",
+          "role_description": "组",
+          "subrole": "group"
+        },
+        {
+          "available_actions": [
+            "ScrollTo"
+          ],
+          "native_id": {
+            "kind": "automation_id",
+            "value": "0fc10367-6ef1-4a84-9598-3bbc9a65d775"
+          },
+          "role": "group",
+          "role_description": "组",
+          "subrole": "group"
+        },
+        {
+          "available_actions": [
+            "ScrollTo"
+          ],
+          "role": "group",
+          "role_description": "组",
+          "subrole": "group"
+        }
+      ],
+      "name": "AMIA Public Challenge 2026 | Kaggle",
+      "native_id": {
+        "kind": "automation_id",
+        "value": "RootWebArea"
+      },
+      "ref_id": "@s5n5x5ox7begb:e100",
+      "role": "document",
+      "role_description": "文档",
+      "states": [
+        "focused",
+        "readonly"
+      ],
+      "subrole": "document",
+      "value": "https://www.kaggle.com/competitions/amia-public-challenge-2026/overview"
+    }
+  ]
+}

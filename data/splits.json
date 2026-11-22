@@ -1,0 +1,27 @@
+{
+  "seed": 17,
+  "target_fractions": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "counts_by_label": {
+    "train": [
+      2800,
+      2800
+    ],
+    "dev": [
+      600,
+      600
+    ],
+    "holdout": [
+      600,
+      600
+    ]
+  },
+  "images": 8000,
+  "groups": 8000,
+  "duplicate_groups": 0,
+  "split_sha256": "5b2303b63c94085d65c1c33029a2a541b056444b3544ab213057ec05d4d5348f",
+  "group_overlap": false
+}

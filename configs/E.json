@@ -1,0 +1,29 @@
+{
+  "experiment": "E",
+  "status": "frozen_budget",
+  "seed": 17,
+  "model": {
+    "width": 32,
+    "branch": "rgb"
+  },
+  "data": {
+    "mode": "local",
+    "image_size": 224,
+    "root": "data/official",
+    "manifest": "data/splits.csv",
+    "jpeg_quality": [
+      60,
+      100
+    ]
+  },
+  "training": {
+    "epochs": 20,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "consistency": 0.0,
+    "warmup_fraction": 0.1,
+    "workers": 0,
+    "amp": true
+  }
+}

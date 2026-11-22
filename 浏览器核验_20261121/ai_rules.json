@@ -1,0 +1,3170 @@
+{
+  "date": "2026-11-21",
+  "method": "agent-desktop accessibility tree",
+  "snapshot_id": "s14wtf5usksqtg",
+  "documents": [
+    {
+      "available_actions": [
+        "Scroll",
+        "ScrollTo",
+        "SetFocus"
+      ],
+      "children": [
+        {
+          "available_actions": [
+            "Click",
+            "ScrollTo"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "ScrollTo"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "description": "Navigation menu",
+                      "name": "Navigation menu",
+                      "placeholder": "Navigation menu",
+                      "ref_id": "@s14wtf5usksqtg:e100",
+                      "role": "button",
+                      "role_description": "按钮",
+                      "subrole": "button"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo",
+                    "SetFocus"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "Skip to",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "description"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "content",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "description"
+                    }
+                  ],
+                  "name": "Skip to content",
+                  "ref_id": "@s14wtf5usksqtg:e101",
+                  "role": "link",
+                  "role_description": "链接",
+                  "states": [
+                    "offscreen",
+                    "readonly"
+                  ],
+                  "subrole": "link",
+                  "value": "https://www.kaggle.com/competitions/ai-generated-image-detection-benchmark/data#site-content"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo"
+                          ],
+                          "name": "要获取缺失的图片说明，请打开上下文菜单。",
+                          "ref_id": "@s14wtf5usksqtg:e103",
+                          "role": "image",
+                          "role_description": "未加标签的图片",
+                          "subrole": "img"
+                        }
+                      ],
+                      "name": "Return to Kaggle home page",
+                      "ref_id": "@s14wtf5usksqtg:e102",
+                      "role": "link",
+                      "role_description": "链接",
+                      "states": [
+                        "readonly"
+                      ],
+                      "subrole": "link",
+                      "value": "https://www.kaggle.com/"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "Expand",
+                    "Collapse",
+                    "ScrollTo",
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "Create",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    }
+                  ],
+                  "name": "Create on Kaggle",
+                  "ref_id": "@s14wtf5usksqtg:e104",
+                  "role": "menubutton",
+                  "role_description": "按钮",
+                  "subrole": "button"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "Home",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "Home",
+                                          "ref_id": "@s14wtf5usksqtg:e106",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "Home List Item",
+                                  "ref_id": "@s14wtf5usksqtg:e105",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "Competitions",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "Competitions",
+                                          "ref_id": "@s14wtf5usksqtg:e108",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/competitions"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "Competitions List Item",
+                                  "ref_id": "@s14wtf5usksqtg:e107",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "Benchmarks",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "Benchmarks",
+                                          "ref_id": "@s14wtf5usksqtg:e110",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/benchmarks"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "Benchmarks List Item",
+                                  "ref_id": "@s14wtf5usksqtg:e109",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "Arenas",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "Arenas",
+                                          "ref_id": "@s14wtf5usksqtg:e112",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/arenas"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "Arenas List Item",
+                                  "ref_id": "@s14wtf5usksqtg:e111",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                },
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "Game Arena",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "Game Arena",
+                                          "ref_id": "@s14wtf5usksqtg:e114",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/game-arena"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "Game Arena List Item",
+                                  "ref_id": "@s14wtf5usksqtg:e113",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                }
+                              ],
+                              "role": "list",
+                              "role_description": "列表",
+                              "subrole": "list"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "Expand",
+                                            "Collapse",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "Data Hub",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "Data Hub",
+                                          "ref_id": "@s14wtf5usksqtg:e116",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/competitions/ai-generated-image-detection-benchmark/data#"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "description": "Expand",
+                                          "name": "Expand",
+                                          "placeholder": "Expand",
+                                          "ref_id": "@s14wtf5usksqtg:e117",
+                                          "role": "button",
+                                          "role_description": "按钮",
+                                          "subrole": "button"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "Data Hub List Item",
+                                  "ref_id": "@s14wtf5usksqtg:e115",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                }
+                              ],
+                              "role": "list",
+                              "role_description": "列表",
+                              "subrole": "list"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "ScrollTo",
+                                    "Click"
+                                  ],
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "ScrollTo"
+                                      ],
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "Expand",
+                                            "Collapse",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "ScrollTo"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "ScrollTo"
+                                                  ],
+                                                  "name": "More",
+                                                  "role": "statictext",
+                                                  "role_description": "文本",
+                                                  "subrole": "description"
+                                                }
+                                              ],
+                                              "role": "group",
+                                              "role_description": "组",
+                                              "subrole": "group"
+                                            }
+                                          ],
+                                          "name": "More on Kaggle",
+                                          "ref_id": "@s14wtf5usksqtg:e119",
+                                          "role": "link",
+                                          "role_description": "链接",
+                                          "states": [
+                                            "readonly"
+                                          ],
+                                          "subrole": "link",
+                                          "value": "https://www.kaggle.com/competitions/ai-generated-image-detection-benchmark/data#"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "description": "Expand",
+                                          "name": "Expand",
+                                          "placeholder": "Expand",
+                                          "ref_id": "@s14wtf5usksqtg:e120",
+                                          "role": "button",
+                                          "role_description": "按钮",
+                                          "subrole": "button"
+                                        }
+                                      ],
+                                      "role": "group",
+                                      "role_description": "组",
+                                      "subrole": "group"
+                                    }
+                                  ],
+                                  "name": "More on Kaggle List Item",
+                                  "ref_id": "@s14wtf5usksqtg:e118",
+                                  "role": "option",
+                                  "role_description": "列表项目",
+                                  "subrole": "listitem"
+                                }
+                              ],
+                              "role": "list",
+                              "role_description": "列表",
+                              "subrole": "list"
+                            }
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                }
+              ],
+              "name": "Main Kaggle page navigation",
+              "ref_id": "@s14wtf5usksqtg:e99",
+              "role": "group",
+              "role_description": "导航",
+              "subrole": "navigation"
+            },
+            {
+              "available_actions": [
+                "ScrollTo"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "SetValue",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "description": "Search",
+                              "name": "Search",
+                              "native_id": {
+                                "kind": "automation_id",
+                                "value": ":r8:"
+                              },
+                              "ref_id": "@s14wtf5usksqtg:e123",
+                              "role": "textfield",
+                              "role_description": "编辑",
+                              "subrole": "textbox"
+                            }
+                          ],
+                          "ref_id": "@s14wtf5usksqtg:e122",
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        }
+                      ],
+                      "ref_id": "@s14wtf5usksqtg:e121",
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "name": "Login",
+                          "ref_id": "@s14wtf5usksqtg:e125",
+                          "role": "button",
+                          "role_description": "按钮",
+                          "subrole": "button"
+                        }
+                      ],
+                      "name": "Login",
+                      "ref_id": "@s14wtf5usksqtg:e124",
+                      "role": "link",
+                      "role_description": "链接",
+                      "states": [
+                        "readonly"
+                      ],
+                      "subrole": "link",
+                      "value": "https://www.kaggle.com/account/login?phase=startSignInTab&returnUrl=%2Fcompetitions%2Fai-generated-image-detection-benchmark%2Fdata"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "name": "Sign Up",
+                          "ref_id": "@s14wtf5usksqtg:e127",
+                          "role": "button",
+                          "role_description": "按钮",
+                          "subrole": "button"
+                        }
+                      ],
+                      "name": "Sign Up",
+                      "ref_id": "@s14wtf5usksqtg:e126",
+                      "role": "link",
+                      "role_description": "链接",
+                      "states": [
+                        "readonly"
+                      ],
+                      "subrole": "link",
+                      "value": "https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2Fcompetitions%2Fai-generated-image-detection-benchmark%2Fdata"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                }
+              ],
+              "name": "Main menu, search and your account",
+              "role": "group",
+              "role_description": "导航",
+              "subrole": "navigation"
+            },
+            {
+              "available_actions": [
+                "Scroll",
+                "ScrollTo"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "states": [
+                    "offscreen"
+                  ],
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo",
+                    "SetFocus"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "emilia wang",
+                      "placeholder": "emilia wang",
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "role": "image",
+                      "role_description": "图形",
+                      "subrole": "img"
+                    }
+                  ],
+                  "name": "emilia wang's profile",
+                  "ref_id": "@s14wtf5usksqtg:e129",
+                  "role": "link",
+                  "role_description": "链接",
+                  "states": [
+                    "readonly"
+                  ],
+                  "subrole": "link",
+                  "value": "https://www.kaggle.com/emiliawang1111"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo",
+                    "SetFocus"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "emilia wang",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "name": "Go to profile for emilia wang",
+                  "ref_id": "@s14wtf5usksqtg:e130",
+                  "role": "link",
+                  "role_description": "链接",
+                  "states": [
+                    "readonly"
+                  ],
+                  "subrole": "link",
+                  "value": "https://www.kaggle.com/emiliawang1111"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "role": "statictext",
+                  "role_description": "文本",
+                  "subrole": "description"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "name": "· ",
+                  "role": "statictext",
+                  "role_description": "文本",
+                  "subrole": "description"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "name": "Community Prediction Competition",
+                  "role": "statictext",
+                  "role_description": "文本",
+                  "subrole": "description"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "name": " · ",
+                  "role": "statictext",
+                  "role_description": "文本",
+                  "subrole": "description"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "a year to go",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "description": "Fri Nov 19 2027 15:51:25 GMT+0800 (中国标准时间)",
+                  "name": "a year to go",
+                  "placeholder": "Fri Nov 19 2027 15:51:25 GMT+0800 (中国标准时间)",
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo",
+                    "SetFocus"
+                  ],
+                  "name": "Join Competition",
+                  "ref_id": "@s14wtf5usksqtg:e131",
+                  "role": "button",
+                  "role_description": "按钮",
+                  "subrole": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo",
+                    "SetFocus"
+                  ],
+                  "description": "Competition Options",
+                  "name": "Competition options menu collapsed",
+                  "placeholder": "Competition Options",
+                  "ref_id": "@s14wtf5usksqtg:e132",
+                  "role": "button",
+                  "role_description": "按钮",
+                  "subrole": "button"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "AI 生成图像鉴别测评榜",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "name": "AI 生成图像鉴别测评榜",
+                  "role": "statictext",
+                  "role_description": "标题",
+                  "subrole": "heading"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "name": "图像真伪二分类：0=真实，1=AI 生成。任意队伍可参与，仅提交 CSV，按全部 1,000 张测试图像的 Accuracy 在线测评。",
+                      "role": "statictext",
+                      "role_description": "文本",
+                      "subrole": "description"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "ScrollTo"
+                      ],
+                      "ref_id": "@s14wtf5usksqtg:e133",
+                      "role": "image",
+                      "role_description": "未加标签的图片",
+                      "subrole": "img"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "states": [
+                    "offscreen"
+                  ],
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Overview, 1 of 7",
+                          "ref_id": "@s14wtf5usksqtg:e134",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "subrole": "tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Data, 2 of 7",
+                          "ref_id": "@s14wtf5usksqtg:e135",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "subrole": "tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Code, 3 of 7",
+                          "ref_id": "@s14wtf5usksqtg:e136",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "subrole": "tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Models, 4 of 7",
+                          "ref_id": "@s14wtf5usksqtg:e137",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "subrole": "tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Discussion, 5 of 7",
+                          "ref_id": "@s14wtf5usksqtg:e138",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "subrole": "tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Leaderboard, 6 of 7",
+                          "ref_id": "@s14wtf5usksqtg:e139",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "subrole": "tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Select",
+                            "ScrollTo",
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "name": "Rules, 7 of 7",
+                          "ref_id": "@s14wtf5usksqtg:e140",
+                          "role": "tab",
+                          "role_description": "选项卡项目",
+                          "states": [
+                            "selected"
+                          ],
+                          "subrole": "tab"
+                        }
+                      ],
+                      "role": "tablist",
+                      "role_description": "选项卡",
+                      "subrole": "tablist"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "role": "separator",
+                  "role_description": "分隔符",
+                  "subrole": "separator"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "Competition Rules",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "Competition Rules",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "Expand",
+                        "Collapse",
+                        "ScrollTo",
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "description": "Collapse undefined",
+                      "name": "Collapse undefined",
+                      "placeholder": "Collapse undefined",
+                      "ref_id": "@s14wtf5usksqtg:e142",
+                      "role": "menubutton",
+                      "role_description": "按钮",
+                      "states": [
+                        "expanded"
+                      ],
+                      "subrole": "button"
+                    }
+                  ],
+                  "ref_id": "@s14wtf5usksqtg:e141",
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo",
+                            "Click"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "• ",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "subrole": "description"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "任意个人或队伍均可参与。",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "任意个人或队伍均可参与。",
+                          "ref_id": "@s14wtf5usksqtg:e144",
+                          "role": "option",
+                          "role_description": "列表项目",
+                          "subrole": "listitem"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo",
+                            "Click"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "• ",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "subrole": "description"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "仅提交预测 CSV，按 Accuracy 排名。",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "仅提交预测 CSV，按 Accuracy 排名。",
+                          "ref_id": "@s14wtf5usksqtg:e145",
+                          "role": "option",
+                          "role_description": "列表项目",
+                          "subrole": "listitem"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo",
+                            "Click"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "• ",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "subrole": "description"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "请勿使用或传播测试集真实标签。数据仅供本测评使用。",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "请勿使用或传播测试集真实标签。数据仅供本测评使用。",
+                          "ref_id": "@s14wtf5usksqtg:e146",
+                          "role": "option",
+                          "role_description": "列表项目",
+                          "subrole": "listitem"
+                        }
+                      ],
+                      "role": "list",
+                      "role_description": "列表",
+                      "subrole": "list"
+                    }
+                  ],
+                  "ref_id": "@s14wtf5usksqtg:e143",
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "Kaggle Competition Foundational Rules",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "Kaggle Competition Foundational Rules",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "(Non-editable)",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "Expand",
+                        "Collapse",
+                        "ScrollTo",
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "description": "Collapse undefined",
+                      "name": "Collapse undefined",
+                      "placeholder": "Collapse undefined",
+                      "ref_id": "@s14wtf5usksqtg:e148",
+                      "role": "menubutton",
+                      "role_description": "按钮",
+                      "states": [
+                        "expanded"
+                      ],
+                      "subrole": "button"
+                    }
+                  ],
+                  "ref_id": "@s14wtf5usksqtg:e147",
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "name": "warning",
+                  "role": "statictext",
+                  "role_description": "文本",
+                  "subrole": "description"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "name": "Competition participants must also agree to Kaggle's Foundational Competition Rules. These rules will supersede the competition-specific rules in the event of any conflict.",
+                  "role": "statictext",
+                  "role_description": "文本",
+                  "subrole": "description"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "The following Kaggle Competition Foundational Rules (“ Foundational Rules ”) apply to every competition regardless of whether the Sponsor creates competition-specific rules. Any competition-specific rules provided by the Sponsor are in addition to these rules, and in the case of any conflict or inconsistency, these Foundational Rules control and nullify contrary competition-specific rules.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "GENERAL COMPETITION RULES - BINDING AGREEMENT",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "GENERAL COMPETITION RULES - BINDING AGREEMENT",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "1. ELIGIBILITY",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "1. ELIGIBILITY",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. To be eligible to enter the Competition, you must be:",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo",
+                            "Click"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "1. ",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "a registered account holder at Kaggle.com;",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "a registered account holder at Kaggle.com;",
+                          "ref_id": "@s14wtf5usksqtg:e150",
+                          "role": "option",
+                          "role_description": "列表项目",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "listitem"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo",
+                            "Click"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "2. ",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "the older of 18 years old or the age of majority in your jurisdiction of residence (unless otherwise agreed to by Competition Sponsor and appropriate parental/guardian consents have been obtained by Competition Sponsor);",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "the older of 18 years old or the age of majority in your jurisdiction of residence (unless otherwise agreed to by Competition Sponsor and appropriate parental/guardian consents have been obtained by Competition Sponsor);",
+                          "ref_id": "@s14wtf5usksqtg:e151",
+                          "role": "option",
+                          "role_description": "列表项目",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "listitem"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo",
+                            "Click"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "3. ",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "not a resident of Crimea, so-called Donetsk People's Republic (DNR) or Luhansk People's Republic (LNR), Cuba, Iran, or North Korea; and",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "not a resident of Crimea, so-called Donetsk People's Republic (DNR) or Luhansk People's Republic (LNR), Cuba, Iran, or North Korea; and",
+                          "ref_id": "@s14wtf5usksqtg:e152",
+                          "role": "option",
+                          "role_description": "列表项目",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "listitem"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo",
+                            "Click"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "4. ",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "not a person or representative of an entity under U.S. export controls or sanctions (see: ",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "ScrollTo"
+                                  ],
+                                  "name": "https://www.treasury.gov/resourcecenter/sanctions/Programs/Pages/Programs.aspx",
+                                  "role": "statictext",
+                                  "role_description": "文本",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "subrole": "description"
+                                }
+                              ],
+                              "name": "https://www.treasury.gov/resourcecenter/sanctions/Programs/Pages/Programs.aspx (opens in a new tab)",
+                              "ref_id": "@s14wtf5usksqtg:e154",
+                              "role": "link",
+                              "role_description": "链接",
+                              "states": [
+                                "offscreen",
+                                "readonly"
+                              ],
+                              "subrole": "link",
+                              "value": "https://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx"
+                            },
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": ").",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "not a person or representative of an entity under U.S. export controls or sanctions (see: https://www.treasury.gov/resourcecenter/sanctions/Programs/Pages/Programs.aspx).",
+                          "ref_id": "@s14wtf5usksqtg:e153",
+                          "role": "option",
+                          "role_description": "列表项目",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "listitem"
+                        }
+                      ],
+                      "role": "list",
+                      "role_description": "列表",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "list"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "b. Competitions are open to residents of the United States and worldwide, except that if you are a resident of Crimea, so-called Donetsk People's Republic (DNR) or Luhansk People's Republic (LNR), Cuba, Iran, North Korea, or are subject to U.S. export controls or sanctions, you may not enter the Competition. Other local rules and regulations may apply to you, so please check your local laws to ensure that you are eligible to participate in skills-based competitions. The Competition Host reserves the right to forego or award alternative Prizes where needed to comply with local laws. If a winner is located in a country where prizes cannot be awarded, then they are not eligible to receive a prize.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "c. If you are entering as a representative of a company, educational institution or other legal entity, or on behalf of your employer, these rules are binding on you, individually, and the entity you represent or where you are an employee. If you are acting within the scope of your employment, or as an agent of another party, you warrant that such party or your employer has full knowledge of your actions and has consented thereto, including your potential receipt of a Prize. You further warrant that your actions do not violate your employer's or entity's policies and procedures.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "d. The Competition Sponsor reserves the right to verify eligibility and to adjudicate on any dispute at any time. If you provide any false information relating to the Competition concerning your identity, residency, mailing address, telephone number, email address, ownership of right, or information required for entering the Competition, you may be immediately disqualified from the Competition.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "2. SPONSOR AND HOSTING PLATFORM",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "2. SPONSOR AND HOSTING PLATFORM",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. The Competition is sponsored by Competition Sponsor named above. The Competition is hosted on behalf of Competition Sponsor by Kaggle Inc. (\"Kaggle\"). Kaggle is an independent contractor of Competition Sponsor, and is not a party to this or any agreement between you and Competition Sponsor. You understand that Kaggle has no responsibility with respect to selecting the potential Competition winner(s) or awarding any Prizes. Kaggle will perform certain administrative functions relating to hosting the Competition, and you agree to abide by the provisions relating to Kaggle under these Rules. As a Kaggle.com account holder and user of the Kaggle competition platform, remember you have accepted and are subject to the Kaggle Terms of Service at ",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "www.kaggle.com/terms",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "www.kaggle.com/terms (opens in a new tab)",
+                          "ref_id": "@s14wtf5usksqtg:e155",
+                          "role": "link",
+                          "role_description": "链接",
+                          "states": [
+                            "offscreen",
+                            "readonly"
+                          ],
+                          "subrole": "link",
+                          "value": "http://www.kaggle.com/terms"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": " in addition to these Rules.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "3. COMPETITION PERIOD",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "3. COMPETITION PERIOD",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. For the purposes of Prizes, the Competition will run from the Start Date and time to the Final Submission Deadline (such duration the “Competition Period”). The Competition Timeline is subject to change, and Competition Sponsor may introduce additional hurdle deadlines during the Competition Period. Any updated or additional deadlines will be publicized on the Competition Website. It is your responsibility to check the Competition Website regularly to stay informed of any deadline changes. YOU ARE RESPONSIBLE FOR DETERMINING THE CORRESPONDING TIME ZONE IN YOUR LOCATION.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "4. COMPETITION ENTRY",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "4. COMPETITION ENTRY",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. NO PURCHASE NECESSARY TO ENTER OR WIN. To enter the Competition, you must register on the Competition Website prior to the Entry Deadline, and follow the instructions for developing and entering your Submission through the Competition Website. Your Submissions must be made in the manner and format, and in compliance with all other requirements, stated on the Competition Website (the \"Requirements\"). Submissions must be received before any Submission deadlines stated on the Competition Website. Submissions not received by the stated deadlines will not be eligible to receive a Prize. b. Submissions may not use or incorporate information from hand labeling or human prediction of the validation dataset or test data records. c. If the Competition is a multi-stage competition with temporally separate training and/or test data, one or more valid Submissions may be required during each Competition stage in the manner described on the Competition Website in order for the Submissions to be Prize eligible. d. Submissions are void if they are in whole or part illegible, incomplete, damaged, altered, counterfeit, obtained through fraud, or late. Competition Sponsor reserves the right to disqualify any entrant who does not follow these Rules, including making a Submission that does not meet the Requirements.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "5. INDIVIDUALS AND TEAMS",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "5. INDIVIDUALS AND TEAMS",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. Individual Account. You may make Submissions only under one, unique Kaggle.com account. You will be disqualified if you make Submissions through more than one Kaggle account, or attempt to falsify an account to act as your proxy. You may submit up to the maximum number of Submissions per day as specified on the Competition Website. b. Teams. If permitted under the Competition Website guidelines, multiple individuals may collaborate as a Team; however, you may join or form only one Team. Each Team member must be a single individual with a separate Kaggle account. You must register individually for the Competition before joining a Team. You must confirm your Team membership to make it official by responding to the Team notification message sent to your Kaggle account. Team membership may not exceed the Maximum Team Size stated on the Competition Website. c. Team Merger. Teams may request to merge via the Competition Website. Team mergers may be allowed provided that: (i) the combined Team does not exceed the Maximum Team Size; (ii) the number of Submissions made by the merging Teams does not exceed the number of Submissions permissible for one Team at the date of the merger request; (iii) the merger is completed before the earlier of: any merger deadline or the Competition deadline; and (iv) the proposed combined Team otherwise meets all the requirements of these Rules. d. Private Sharing. No private sharing outside of Teams. Privately sharing code or data outside of Teams is not permitted. It's okay to share code if made available to all Participants on the forums.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "6. SUBMISSION CODE REQUIREMENTS",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "6. SUBMISSION CODE REQUIREMENTS",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. Private Code Sharing. Unless otherwise specifically permitted under the Competition Website or Competition Specific Rules above, during the Competition Period, you are not allowed to privately share source or executable code developed in connection with or based upon the Competition Data or other source or executable code relevant to the Competition (“Competition Code”). This prohibition includes sharing Competition Code between separate Teams, unless a Team merger occurs. Any such sharing of Competition Code is a breach of these Competition Rules and may result in disqualification. b. Public Code Sharing. You are permitted to publicly share Competition Code, provided that such public sharing does not violate the intellectual property rights of any third party. If you do choose to share Competition Code or other such code, you are required to share it on Kaggle.com on the discussion forum or notebooks associated specifically with the Competition for the benefit of all competitors. By so sharing, you are deemed to have licensed the shared code under an Open Source Initiative-approved license (see ",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "www.opensource.org",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "www.opensource.org (opens in a new tab)",
+                          "ref_id": "@s14wtf5usksqtg:e156",
+                          "role": "link",
+                          "role_description": "链接",
+                          "states": [
+                            "offscreen",
+                            "readonly"
+                          ],
+                          "subrole": "link",
+                          "value": "http://www.opensource.org/"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": ") that in no event limits commercial use of such Competition Code or model containing or depending on such Competition Code. c. Use of Open Source. Unless otherwise stated in the Specific Competition Rules above, if open source code is used in the model to generate the Submission, then you must only use open source code licensed under an Open Source Initiative-approved license (see ",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "www.opensource.org",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "www.opensource.org (opens in a new tab)",
+                          "ref_id": "@s14wtf5usksqtg:e157",
+                          "role": "link",
+                          "role_description": "链接",
+                          "states": [
+                            "offscreen",
+                            "readonly"
+                          ],
+                          "subrole": "link",
+                          "value": "http://www.opensource.org/"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": ") that in no event limits commercial use of such code or model containing or depending on such code.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "7. DETERMINING WINNERS",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "7. DETERMINING WINNERS",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. Each Submission will be scored and ranked by the evaluation metric stated on the Competition Website. During the Competition Period, the current ranking will be visible on the Competition Website's Public Leaderboard. The potential winner(s) are determined solely by the leaderboard ranking on the Private Leaderboard, subject to compliance with these Rules. The Public Leaderboard will be based on the public test set and the Private Leaderboard will be based on the private test set. b. In the event of a tie, the Submission that was entered first to the Competition will be the winner. In the event a potential winner is disqualified for any reason, the Submission that received the next highest score rank will be chosen as the potential winner.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "8. NOTIFICATION OF WINNERS & DISQUALIFICATION",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "8. NOTIFICATION OF WINNERS & DISQUALIFICATION",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. The potential winner(s) will be notified by email. b. If a potential winner (i) does not respond to the notification attempt within one (1) week from the first notification attempt or (ii) notifies Kaggle within one week after the Final Submission Deadline that the potential winner does not want to be nominated as a winner or does not want to receive a Prize, then, in each case (i) and (ii) such potential winner will not receive any Prize, and an alternate potential winner will be selected from among all eligible entries received based on the Competition’s judging criteria. c. In case (i) and (ii) above Kaggle may disqualify the Participant. However, in case (ii) above, if requested by Kaggle, such potential winner may provide code and documentation to verify the Participant’s compliance with these Rules. If the potential winner provides code and documentation to the satisfaction of Kaggle, the Participant will not be disqualified pursuant to this paragraph. d. Competition Sponsor reserves the right to disqualify any Participant from the Competition if the Competition Sponsor reasonably believes that the Participant has attempted to undermine the legitimate operation of the Competition by cheating, deception, or other unfair playing practices or abuses, threatens or harasses any other Participants, Competition Sponsor or Kaggle. e. A disqualified Participant may be removed from the Competition leaderboard, at Kaggle's sole discretion. If a Participant is removed from the Competition Leaderboard, additional winning features associated with the Kaggle competition platform, for example Kaggle points or medals, may also not be awarded. f. The final leaderboard list will be publicly displayed at Kaggle.com. Determinations of Competition Sponsor are final and binding.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "9. PRIZES",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "9. PRIZES",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. Prize(s) are as described on the Competition Website and are only available for winning during the time period described on the Competition Website. The odds of winning any Prize depends on the number of eligible Submissions received during the Competition Period and the skill of the Participants. b. All Prizes are subject to Competition Sponsor's review and verification of the Participant’s eligibility and compliance with these Rules, and the compliance of the winning Submissions with the Submissions Requirements. In the event that the Submission demonstrates non-compliance with these Competition Rules, Competition Sponsor may at its discretion take either of the following actions: (i) disqualify the Submission(s); or (ii) require the potential winner to remediate within one week after notice all issues identified in the Submission(s) (including, without limitation, the resolution of license conflicts, the fulfillment of all obligations required by software licenses, and the removal of any software that violates the software restrictions). c. A potential winner may decline to be nominated as a Competition winner in accordance with Section 3.8. d. Potential winners must return all required Prize acceptance documents within two (2) weeks following notification of such required documents, or such potential winner will be deemed to have forfeited the prize and another potential winner will be selected. Prize(s) will be awarded within approximately thirty (30) days after receipt by Competition Sponsor or Kaggle of the required Prize acceptance documents. Transfer or assignment of a Prize is not allowed. e. You are not eligible to receive any Prize if you do not meet the Eligibility requirements in Section 2.7 and Section 3.1 above. f. If a Team wins a monetary Prize, the Prize money will be allocated in even shares between the eligible Team members, unless the Team unanimously opts for a different Prize split and notifies Kaggle before Prizes are issued.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "10. TAXES",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "10. TAXES",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. ALL TAXES IMPOSED ON PRIZES ARE THE SOLE RESPONSIBILITY OF THE WINNERS. Payments to potential winners are subject to the express requirement that they submit all documentation requested by Competition Sponsor or Kaggle for compliance with applicable state, federal, local and foreign (including provincial) tax reporting and withholding requirements. Prizes will be net of any taxes that Competition Sponsor is required by law to withhold. If a potential winner fails to provide any required documentation or comply with applicable laws, the Prize may be forfeited and Competition Sponsor may select an alternative potential winner. Any winners who are U.S. residents will receive an IRS Form-1099 in the amount of their Prize.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "11. GENERAL CONDITIONS",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "11. GENERAL CONDITIONS",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. All federal, state, provincial and local laws and regulations apply.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "12. PUBLICITY",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "12. PUBLICITY",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. You agree that Competition Sponsor, Kaggle and its affiliates may use your name and likeness for advertising and promotional purposes without additional compensation, unless prohibited by law.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "13. PRIVACY",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "13. PRIVACY",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. You acknowledge and agree that Competition Sponsor and Kaggle may collect, store, share and otherwise use personally identifiable information provided by you during the Kaggle account registration process and the Competition, including but not limited to, name, mailing address, phone number, and email address (“Personal Information”). Kaggle acts as an independent controller with regard to its collection, storage, sharing, and other use of this Personal Information, and will use this Personal Information in accordance with its Privacy Policy <",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "www.kaggle.com/privacy",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "www.kaggle.com/privacy (opens in a new tab)",
+                          "ref_id": "@s14wtf5usksqtg:e158",
+                          "role": "link",
+                          "role_description": "链接",
+                          "states": [
+                            "offscreen",
+                            "readonly"
+                          ],
+                          "subrole": "link",
+                          "value": "http://www.kaggle.com/privacy"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": ">, including for administering the Competition. As a Kaggle.com account holder, you have the right to request access to, review, rectification, portability or deletion of any personal data held by Kaggle about you by logging into your account and/or contacting Kaggle Support at <",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "www.kaggle.com/contact",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "subrole": "description"
+                            }
+                          ],
+                          "name": "www.kaggle.com/contact (opens in a new tab)",
+                          "ref_id": "@s14wtf5usksqtg:e159",
+                          "role": "link",
+                          "role_description": "链接",
+                          "states": [
+                            "offscreen",
+                            "readonly"
+                          ],
+                          "subrole": "link",
+                          "value": "http://www.kaggle.com/contact"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": ">. b. As part of Competition Sponsor performing this contract between you and the Competition Sponsor, Kaggle will transfer your Personal Information to Competition Sponsor, which acts as an independent controller with regard to this Personal Information. As a controller of such Personal Information, Competition Sponsor agrees to comply with all U.S. and foreign data protection obligations with regard to your Personal Information. Kaggle will transfer your Personal Information to Competition Sponsor in the country specified in the Competition Sponsor Address listed above, which may be a country outside the country of your residence. Such country may not have privacy laws and regulations similar to those of the country of your residence.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "14. WARRANTY, INDEMNITY AND RELEASE",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "14. WARRANTY, INDEMNITY AND RELEASE",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "15. INTERNET",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "15. INTERNET",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. Competition Entities are not responsible for any malfunction of the Competition Website or any late, lost, damaged, misdirected, incomplete, illegible, undeliverable, or destroyed Submissions or entry materials due to system errors, failed, incomplete or garbled computer or other telecommunication transmission malfunctions, hardware or software failures of any kind, lost or unavailable network connections, typographical or system/human errors and failures, technical malfunction(s) of any telephone network or lines, cable connections, satellite transmissions, servers or providers, or computer equipment, traffic congestion on the Internet or at the Competition Website, or any combination thereof, which may limit a Participant’s ability to participate.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "16. RIGHT TO CANCEL, MODIFY OR DISQUALIFY",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "16. RIGHT TO CANCEL, MODIFY OR DISQUALIFY",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. If for any reason the Competition is not capable of running as planned, including infection by computer virus, bugs, tampering, unauthorized intervention, fraud, technical failures, or any other causes which corrupt or affect the administration, security, fairness, integrity, or proper conduct of the Competition, Competition Sponsor reserves the right to cancel, terminate, modify or suspend the Competition. Competition Sponsor further reserves the right to disqualify any Participant who tampers with the submission process or any other part of the Competition or Competition Website. Any attempt by a Participant to deliberately damage any website, including the Competition Website, or undermine the legitimate operation of the Competition is a violation of criminal and civil laws. Should such an attempt be made, Competition Sponsor and Kaggle each reserves the right to seek damages from any such Participant to the fullest extent of the applicable law.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "17. NOT AN OFFER OR CONTRACT OF EMPLOYMENT",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "17. NOT AN OFFER OR CONTRACT OF EMPLOYMENT",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. Under no circumstances will the entry of a Submission, the awarding of a Prize, or anything in these Rules be construed as an offer or contract of employment with Competition Sponsor or any of the Competition Entities. You acknowledge that you have submitted your Submission voluntarily and not in confidence or in trust. You acknowledge that no confidential, fiduciary, agency, employment or other similar relationship is created between you and Competition Sponsor or any of the Competition Entities by your acceptance of these Rules or your entry of your Submission.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "18. DEFINITIONS",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "name": "18. DEFINITIONS",
+                      "role": "statictext",
+                      "role_description": "标题",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "heading"
+                    },
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "name": "a. \"Competition Data\" are the data or datasets available from the Competition Website for the purpose of use in the Competition, including any prototype or executable code provided on the Competition Website. The Competition Data will contain private and public test sets. Which data belongs to which set will not be made available to Participants. b. An “Entry” is when a Participant has joined, signed up, or accepted the rules of a competition. Entry is required to make a Submission to a competition. c. A “Final Submission” is the Submission selected by the user, or automatically selected by Kaggle in the event not selected by the user, that is/are used for final placement on the competition leaderboard. d. A “Participant” or “Participant User” is an individual who participates in a competition by entering the competition and making a Submission. e. The “Private Leaderboard” is a ranked display of Participants’ Submission scores against the private test set. The Private Leaderboard determines the final standing in the competition. f. The “Public Leaderboard” is a ranked display of Participants’ Submission scores against a representative sample of the test data. This leaderboard is visible throughout the competition. g. A “Sponsor” is responsible for hosting the competition, which includes but is not limited to providing the data for the competition, determining winners, and enforcing competition rules. h. A “Submission” is anything provided by the Participant to the Sponsor to be evaluated for competition purposes and determine leaderboard position. A Submission may be made as a model, notebook, prediction file, or other format as determined by the Sponsor. i. A “Team” is one or more Participants participating together in a Kaggle competition, by officially merging together as a Team within the competition platform.",
+                          "role": "statictext",
+                          "role_description": "文本",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "description"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "subrole": "group"
+                    }
+                  ],
+                  "ref_id": "@s14wtf5usksqtg:e149",
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "children": [
+                    {
+                      "available_actions": [
+                        "ScrollTo"
+                      ],
+                      "children": [
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "name": "Rules",
+                              "role": "statictext",
+                              "role_description": "文本",
+                              "subrole": "description"
+                            }
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "ScrollTo"
+                          ],
+                          "role": "group",
+                          "role_description": "组",
+                          "states": [
+                            "offscreen"
+                          ],
+                          "subrole": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "Scroll",
+                            "ScrollTo"
+                          ],
+                          "children": [
+                            {
+                              "available_actions": [
+                                "ScrollTo"
+                              ],
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Select",
+                                    "ScrollTo",
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "name": "Competition Rules, 1 of 2",
+                                  "ref_id": "@s14wtf5usksqtg:e161",
+                                  "role": "tab",
+                                  "role_description": "选项卡项目",
+                                  "states": [
+                                    "focused"
+                                  ],
+                                  "subrole": "tab"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Select",
+                                    "ScrollTo",
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "name": "Kaggle Competition Foundational Rules, 2 of 2",
+                                  "ref_id": "@s14wtf5usksqtg:e162",
+                                  "role": "tab",
+                                  "role_description": "选项卡项目",
+                                  "subrole": "tab"
+                                }
+                              ],
+                              "role": "tablist",
+                              "role_description": "选项卡",
+                              "subrole": "tablist"
+                            }
+                          ],
+                          "ref_id": "@s14wtf5usksqtg:e160",
+                          "role": "group",
+                          "role_description": "组",
+                          "subrole": "group"
+                        }
+                      ],
+                      "role": "group",
+                      "role_description": "组",
+                      "subrole": "group"
+                    }
+                  ],
+                  "role": "group",
+                  "role_description": "组",
+                  "subrole": "group"
+                },
+                {
+                  "available_actions": [
+                    "ScrollTo"
+                  ],
+                  "native_id": {
+                    "kind": "automation_id",
+                    "value": "nav-footer"
+                  },
+                  "role": "group",
+                  "role_description": "组",
+                  "states": [
+                    "offscreen"
+                  ],
+                  "subrole": "group"
+                }
+              ],
+              "native_id": {
+                "kind": "automation_id",
+                "value": "site-content"
+              },
+              "ref_id": "@s14wtf5usksqtg:e128",
+              "role": "group",
+              "role_description": "主要",
+              "subrole": "main"
+            },
+            {
+              "available_actions": [
+                "ScrollTo"
+              ],
+              "role": "statictext",
+              "role_description": "警报",
+              "states": [
+                "offscreen"
+              ],
+              "subrole": "alert"
+            }
+          ],
+          "native_id": {
+            "kind": "automation_id",
+            "value": "root"
+          },
+          "ref_id": "@s14wtf5usksqtg:e98",
+          "role": "group",
+          "role_description": "组",
+          "subrole": "group"
+        },
+        {
+          "available_actions": [
+            "ScrollTo"
+          ],
+          "native_id": {
+            "kind": "automation_id",
+            "value": "ddeb3a1e-a46b-4d7d-9397-dd6adde4587a"
+          },
+          "role": "group",
+          "role_description": "组",
+          "subrole": "group"
+        },
+        {
+          "available_actions": [
+            "ScrollTo"
+          ],
+          "role": "group",
+          "role_description": "组",
+          "subrole": "group"
+        }
+      ],
+      "name": "AI 生成图像鉴别测评榜 | Kaggle",
+      "native_id": {
+        "kind": "automation_id",
+        "value": "RootWebArea"
+      },
+      "ref_id": "@s14wtf5usksqtg:e97",
+      "role": "document",
+      "role_description": "文档",
+      "states": [
+        "readonly"
+      ],
+      "subrole": "document",
+      "value": "https://www.kaggle.com/competitions/ai-generated-image-detection-benchmark/rules"
+    }
+  ]
+}

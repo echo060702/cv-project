@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "scope": "engineering method checks, not official detection performance",
+  "parameters": {
+    "none": 2795297,
+    "residual": 2888897,
+    "rgb": 2888897
+  },
+  "residual_and_rgb_parameter_shapes_identical": true,
+  "constant_highpass_zero": true,
+  "saturated_JS_finite": true,
+  "js_symmetric": true,
+  "source_sha256": "70256c817339b0db612c00439e1a73460c9ddc05793549d96755776ebddf1669",
+  "torch": "2.5.1+cu118"
+}

@@ -1,0 +1,2 @@
+# Training provenance hashes source bytes; keep Python files identical on Windows and Linux.
+*.py text eol=lf

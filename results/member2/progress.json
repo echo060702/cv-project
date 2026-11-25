@@ -1,0 +1,101 @@
+{
+  "completed_runs": 9,
+  "planned_runs": 9,
+  "completed_epochs": 180,
+  "planned_epochs": 180,
+  "runs": [
+    {
+      "experiment": "B",
+      "seed": 17,
+      "epochs_completed": 20,
+      "epochs_planned": 20,
+      "status": "complete",
+      "best_dev_accuracy": 0.915,
+      "best_epoch": 20,
+      "last_epoch_seconds": 177.74774550000075
+    },
+    {
+      "experiment": "C",
+      "seed": 17,
+      "epochs_completed": 20,
+      "epochs_planned": 20,
+      "status": "complete",
+      "best_dev_accuracy": 0.8575,
+      "best_epoch": 19,
+      "last_epoch_seconds": 183.31104930000038
+    },
+    {
+      "experiment": "D",
+      "seed": 17,
+      "epochs_completed": 20,
+      "epochs_planned": 20,
+      "status": "complete",
+      "best_dev_accuracy": 0.91,
+      "best_epoch": 20,
+      "last_epoch_seconds": 187.44060250000075
+    },
+    {
+      "experiment": "B",
+      "seed": 29,
+      "epochs_completed": 20,
+      "epochs_planned": 20,
+      "status": "complete",
+      "best_dev_accuracy": 0.9183333333333333,
+      "best_epoch": 18,
+      "last_epoch_seconds": 189.66326299999855
+    },
+    {
+      "experiment": "C",
+      "seed": 29,
+      "epochs_completed": 20,
+      "epochs_planned": 20,
+      "status": "complete",
+      "best_dev_accuracy": 0.9033333333333333,
+      "best_epoch": 18,
+      "last_epoch_seconds": 187.70100939999975
+    },
+    {
+      "experiment": "D",
+      "seed": 29,
+      "epochs_completed": 20,
+      "epochs_planned": 20,
+      "status": "complete",
+      "best_dev_accuracy": 0.915,
+      "best_epoch": 16,
+      "last_epoch_seconds": 244.42434830000275
+    },
+    {
+      "experiment": "B",
+      "seed": 43,
+      "epochs_completed": 20,
+      "epochs_planned": 20,
+      "status": "complete",
+      "best_dev_accuracy": 0.9158333333333334,
+      "best_epoch": 19,
+      "last_epoch_seconds": 208.15680369999973
+    },
+    {
+      "experiment": "C",
+      "seed": 43,
+      "epochs_completed": 20,
+      "epochs_planned": 20,
+      "status": "complete",
+      "best_dev_accuracy": 0.8508333333333333,
+      "best_epoch": 19,
+      "last_epoch_seconds": 213.16827759999433
+    },
+    {
+      "experiment": "D",
+      "seed": 43,
+      "epochs_completed": 20,
+      "epochs_planned": 20,
+      "status": "complete",
+      "best_dev_accuracy": 0.91,
+      "best_epoch": 19,
+      "last_epoch_seconds": 226.54871390000335
+    }
+  ],
+  "estimated_remaining_hours": 0.0,
+  "estimate_caveat": "rough estimate from finished epochs; excludes download, verification and checkpoint I/O",
+  "final_refit_status": "waiting for member3 selection summary and evaluation freeze"
+}

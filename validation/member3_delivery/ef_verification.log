@@ -1,0 +1,28 @@
+verified E seed=17: best epoch 20, dev 0.747500
+verified F seed=17: best epoch 20, dev 0.790000
+verified E seed=29: best epoch 18, dev 0.762500
+verified F seed=29: best epoch 18, dev 0.765833
+verified E seed=43: best epoch 19, dev 0.747500
+verified F seed=43: best epoch 18, dev 0.725833
+[
+  {
+    "experiment": "E",
+    "seeds": "17/29/43",
+    "runs": 3,
+    "dev_accuracy_mean": 0.7525000000000001,
+    "dev_accuracy_sample_std": 0.00866025403784433,
+    "dev_bce_mean": 0.5277553750409021,
+    "dev_bce_sample_std": 0.015484703673245481,
+    "recorded_epoch_seconds_total": 6536.014178200625
+  },
+  {
+    "experiment": "F",
+    "seeds": "17/29/43",
+    "runs": 3,
+    "dev_accuracy_mean": 0.7605555555555555,
+    "dev_accuracy_sample_std": 0.032407275132005205,
+    "dev_bce_mean": 0.512756896548801,
+    "dev_bce_sample_std": 0.05829781160138022,
+    "recorded_epoch_seconds_total": 6520.320913898759
+  }
+]

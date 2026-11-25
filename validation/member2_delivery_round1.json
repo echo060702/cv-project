@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "complete_official_runs": 9,
+  "epochs_per_run": 20,
+  "checkpoint_replays": 9,
+  "dev_predictions_replayed": 10800,
+  "full_test_suite_passed": true,
+  "holdout_evaluated": false,
+  "test_pixels_decoded": false,
+  "final_refit_performed": false,
+  "evidence_sha256": {
+    "validation/member2_execution_freeze.json": "25f823d50548d9a5cc9e4552d5eaa3ac18734398b1886ff28488c34d3f2a8e74",
+    "validation/member2_data_pipeline.json": "c2b975e26652b070b6f6932f0500082e42ca992223cd460b3a32434af2a343c9",
+    "validation/member2_method_checks.json": "eddcb5bd3555cf13798e4d6eedeaa446d0fd9e04e18a4a346137ab4d735b7da7",
+    "validation/member2_tests_final.txt": "58ebecc42fdb099d9a859617fdea994c81c47e1df3b2e019efd1eb118a090bbb",
+    "results/member2/ablation_summary.json": "ca661890c779a3e54f172dfdd4b39727830923c928af3a97c91e717797c6c595"
+  }
+}

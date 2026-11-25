@@ -73,6 +73,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--runs', default='runs/baselines')
     parser.add_argument('--output', default='results/baselines')
+    parser.add_argument('--authorization', default='validation/baseline_execution_authorization.json',
+                        help='frozen execution provenance JSON; E/F uses validation/member3_execution_freeze.json')
     parser.add_argument('--verify-predictions', action='store_true', help='reload each best.pt and rerun clean dev only')
     parser.add_argument('--device', default='cuda')
     parser.add_argument('--experiments', nargs='+', default=['G', 'A'],
@@ -81,7 +83,17 @@ def main():
     args = parser.parse_args()
     os.environ.setdefault('CUBLAS_WORKSPACE_CONFIG', ':4096:8')
     torch.set_num_threads(4)
-    authorization = json.loads(Path('validation/baseline_execution_authorization.json').read_text(encoding='utf-8'))
+    authorization_path = Path(args.authorization)
+    authorization_bytes = authorization_path.read_bytes()
+    authorization = json.loads(authorization_bytes.decode('utf-8-sig'))
+    current_inputs = {
+        'source_sha256': source_fingerprint(),
+        'data_adapter_sha256': hashlib.sha256(Path('team_data.py').read_bytes()).hexdigest(),
+        'split_sha256': hashlib.sha256(Path('data/splits.csv').read_bytes()).hexdigest(),
+    }
+    for key, digest in current_inputs.items():
+        if authorization[key] != digest:
+            raise ValueError(f'authorization differs from current inputs: {key}')
     manifest = list(csv.DictReader(Path('data/splits.csv').read_text(encoding='utf-8').splitlines()))
     dev_labels = {r['image_id']: int(r['label']) for r in manifest if r['split'] == 'dev'}
     records, histories = [], {}
@@ -131,6 +143,8 @@ def main():
             writer.writeheader()
             writer.writerows(rows)
     report = {'passed': True, 'scope': 'clean single-patch dev, selected on this same dev; no independent generalization claim',
+              'authorization_file': authorization_path.as_posix(),
+              'authorization_sha256': hashlib.sha256(authorization_bytes).hexdigest(),
               'completed_runs': len(records),
               'epochs_per_run': min(len(h) for h in histories.values()), 'threshold': 0.5, 'checkpoint_selection': 'dev accuracy, lower BCE, earlier epoch',
               'checkpoint_predictions_replayed': args.verify_predictions, 'holdout_evaluated': False, 'test_pixels_decoded': False,

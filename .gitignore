@@ -11,3 +11,7 @@ __pycache__/
 .package-check/
 .local-data-work/
 *.zip
+
+# Member 3 local data cache and queue lock
+downloads/
+runs/member3/.runner.lock

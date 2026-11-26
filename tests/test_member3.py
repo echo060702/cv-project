@@ -1,4 +1,7 @@
 import unittest
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
 
 import numpy as np
 from PIL import Image
@@ -9,6 +12,20 @@ from team_eval import classification_metrics, image_views, paired_group_bootstra
 
 
 class Member3EvaluationTests(unittest.TestCase):
+    def test_incomplete_evaluation_cannot_produce_a_freeze(self):
+        from tools import run_member3_evaluation as runner
+        with tempfile.TemporaryDirectory() as temporary:
+            output=Path(temporary)/'dev'
+            with patch.object(runner,'OUTPUT',output):
+                with self.assertRaises(FileNotFoundError):
+                    runner.finalize({'jobs':[{'key':'missing_run'}]})
+            self.assertEqual(list(Path(temporary).iterdir()),[])
+
+    def test_invalid_conditions_are_rejected_before_checkpoint_loading(self):
+        from team_eval import evaluate
+        with self.assertRaisesRegex(ValueError,'unsupported'):
+            evaluate('not-a-checkpoint','unused-output',patches=2)
+
     def test_tied_auc_and_threshold(self):
         metrics = classification_metrics([0, 1, 0, 1], [.5, .5, .1, .9])
         self.assertEqual(metrics['accuracy'], .75)

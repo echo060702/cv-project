@@ -4,10 +4,11 @@ import csv
 import hashlib
 import io
 import json
+import time
 from pathlib import Path
 
 import numpy as np
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, __version__ as pillow_version
 import torch
 
 from cvdetect.engine import source_fingerprint
@@ -109,6 +110,8 @@ def sha(path):
 
 @torch.inference_mode()
 def evaluate(checkpoint_path, output, *, device='cuda', patches=1, condition='clean', root='data/official'):
+    if patches not in (1, 5) or condition not in CONDITIONS:
+        raise ValueError('unsupported evaluation condition or patch count')
     output = Path(output)
     if output.exists():
         raise ValueError('choose a new output directory; evaluation evidence is not overwritten')
@@ -125,6 +128,10 @@ def evaluate(checkpoint_path, output, *, device='cuda', patches=1, condition='cl
     predictions = []
     root = Path(root).resolve()
     batch_size = config['training']['batch_size']
+    if torch.device(device).type == 'cuda':
+        torch.cuda.reset_peak_memory_stats()
+        torch.cuda.synchronize()
+    began = time.perf_counter()
     for start in range(0, len(rows), batch_size):
         members = rows[start:start+batch_size]
         images = []
@@ -138,17 +145,24 @@ def evaluate(checkpoint_path, output, *, device='cuda', patches=1, condition='cl
         probabilities = model(torch.cat(images).to(device)).float().sigmoid().reshape(len(members), patches).mean(1).cpu().tolist()
         predictions.extend(dict(image_id=row['image_id'], group_id=row['group_id'], label=int(row['label']), prob_fake=p)
                            for row, p in zip(members, probabilities))
+    if torch.device(device).type == 'cuda':
+        torch.cuda.synchronize()
+    elapsed = time.perf_counter()-began
     metrics = classification_metrics([r['label'] for r in predictions], [r['prob_fake'] for r in predictions])
     report = dict(metrics=metrics, split='dev', condition=condition, patches=patches, aggregation='mean_probability',
                   checkpoint_sha256=sha(checkpoint_path), source_sha256=source_fingerprint(),
                   evaluator_sha256=sha(__file__), manifest_sha256=sha(manifest), config=config,
                   torch_version=str(torch.__version__), device=device, batch_size=batch_size,
+                  numpy_version=np.__version__, pillow_version=pillow_version,
+                  wall_seconds=elapsed, images_per_second=len(rows)/elapsed,
+                  peak_vram_bytes=torch.cuda.max_memory_allocated() if torch.device(device).type == 'cuda' else 0,
                   holdout_evaluated=False, test_pixels_decoded=False)
     output.mkdir(parents=True)
     with (output/'predictions.csv').open('w', encoding='utf-8', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=list(predictions[0]))
         writer.writeheader()
         writer.writerows(predictions)
+    report['predictions_sha256'] = sha(output/'predictions.csv')
     (output/'metrics.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
     print(json.dumps(metrics), flush=True)
     return report

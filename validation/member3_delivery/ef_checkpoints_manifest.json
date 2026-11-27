@@ -1,0 +1,67 @@
+{
+  "archive": "ef_checkpoints.zip",
+  "bytes": 385757463,
+  "sha256": "53b79437b161865e02e94cefc6ed03e940395f666b19022d0bca0f5e42cea7a5",
+  "files": [
+    {
+      "path": "runs/member3/E_seed17/best.pt",
+      "bytes": 35248437,
+      "sha256": "06f56fa2638e1e1f68720cc09ce2bebbfeafddf5752c0d4252f52fb58fead5d3"
+    },
+    {
+      "path": "runs/member3/E_seed17/last.pt",
+      "bytes": 35248437,
+      "sha256": "4fdd8eff779af8a3327385ea3e02899347d1a25b3c67a6dc96b80ede927c0c26"
+    },
+    {
+      "path": "runs/member3/E_seed29/best.pt",
+      "bytes": 35248309,
+      "sha256": "418716d1949a09d4c4bf699d4b9254e8ea4c4b318ebd612d0e7552b76f0bb240"
+    },
+    {
+      "path": "runs/member3/E_seed29/last.pt",
+      "bytes": 35248309,
+      "sha256": "46561669dc02843d475e6db454cc77d9c271454aab64d2ef7523be14980bd0c6"
+    },
+    {
+      "path": "runs/member3/E_seed43/best.pt",
+      "bytes": 35248309,
+      "sha256": "1534d9b08d2ef50dc9be5a520717aa57bad5c274db202fed479e2acf82f08346"
+    },
+    {
+      "path": "runs/member3/E_seed43/last.pt",
+      "bytes": 35248309,
+      "sha256": "6a22401dc1761b7907b9ab8e67109f0aeb0ac817405cdb4cf840bf8296843d28"
+    },
+    {
+      "path": "runs/member3/F_seed17/best.pt",
+      "bytes": 35248437,
+      "sha256": "d9ff8003afd9e39d90d30bebf76b62002cea006fa82f57ae2313062e6ebdfca0"
+    },
+    {
+      "path": "runs/member3/F_seed17/last.pt",
+      "bytes": 35248437,
+      "sha256": "5427cb0ca4b32efad14a703c71e9ed5966c21feca5185a3363a82e15ea5aa0ed"
+    },
+    {
+      "path": "runs/member3/F_seed29/best.pt",
+      "bytes": 35248309,
+      "sha256": "3063080a11f554d0d90dff6a89b374e46937e687d58711d3f310184d504f3c2e"
+    },
+    {
+      "path": "runs/member3/F_seed29/last.pt",
+      "bytes": 35248309,
+      "sha256": "8257933105e585e8b031bd8297a1d2d861f5af087006a638f8b9e0f19536cbc2"
+    },
+    {
+      "path": "runs/member3/F_seed43/best.pt",
+      "bytes": 35248309,
+      "sha256": "b607441f7c540b41eed4925a64e2c04159617f9e011798fa85c6a12df502e5ea"
+    },
+    {
+      "path": "runs/member3/F_seed43/last.pt",
+      "bytes": 35248309,
+      "sha256": "03e9115a6393625bfb1158611803abf86091c5d54986fb6723b3d9cae6d5fd95"
+    }
+  ]
+}

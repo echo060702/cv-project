@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "completed_runs": 6,
+  "epochs_per_run": 20,
+  "summary_numeric_fields_identical": true,
+  "authorization_sha256": "49e4b962924ed6dc6b2fe0073f1186d50223b4847df3d65bdf25f4571ddac633",
+  "shared_training_source_unchanged": true,
+  "unit_tests_passed": 31,
+  "local_forward_replay_performed": false,
+  "original_cuda_evidence_preserved": true,
+  "new_training_started": false,
+  "github_pushed": false
+}

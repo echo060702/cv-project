@@ -1,0 +1,1244 @@
+{
+  "scope": "saved best-checkpoint clean single-patch dev predictions; selection-biased, not independent test",
+  "summaries": {
+    "G": {
+      "mean": 0.8047222222222222,
+      "std": 0.0004811252243246992,
+      "auc_mean": 0.8808074074074074
+    },
+    "A": {
+      "mean": 0.8805555555555555,
+      "std": 0.025985216594854123,
+      "auc_mean": 0.9457675925925926
+    },
+    "B": {
+      "mean": 0.9163888888888889,
+      "std": 0.0017347216662217551,
+      "auc_mean": 0.9691722222222222
+    },
+    "C": {
+      "mean": 0.8705555555555555,
+      "std": 0.028581430127762104,
+      "auc_mean": 0.9445194444444445
+    },
+    "D": {
+      "mean": 0.9116666666666667,
+      "std": 0.0028867513459481316,
+      "auc_mean": 0.9655861111111111
+    },
+    "E": {
+      "mean": 0.7525000000000001,
+      "std": 0.00866025403784433,
+      "auc_mean": 0.822237037037037
+    },
+    "F": {
+      "mean": 0.7605555555555555,
+      "std": 0.032407275132005205,
+      "auc_mean": 0.8292203703703703
+    }
+  },
+  "contrasts": {
+    "B-E": {
+      "per_seed_pp": [
+        16.75,
+        15.583333333333337,
+        16.833333333333332
+      ],
+      "seed17_group_bootstrap": {
+        "difference": 0.1675,
+        "ci95": [
+          0.14333333333333334,
+          0.1925
+        ],
+        "groups": 1200,
+        "images": 1200,
+        "iterations": 10000,
+        "seed": 17
+      }
+    },
+    "D-F": {
+      "per_seed_pp": [
+        12.0,
+        14.916666666666668,
+        18.41666666666667
+      ],
+      "seed17_group_bootstrap": {
+        "difference": 0.12,
+        "ci95": [
+          0.09666666666666666,
+          0.14333333333333334
+        ],
+        "groups": 1200,
+        "images": 1200,
+        "iterations": 10000,
+        "seed": 17
+      }
+    },
+    "F-E": {
+      "per_seed_pp": [
+        4.249999999999998,
+        0.33333333333334103,
+        -2.1666666666666723
+      ],
+      "seed17_group_bootstrap": {
+        "difference": 0.0425,
+        "ci95": [
+          0.0225,
+          0.06333333333333334
+        ],
+        "groups": 1200,
+        "images": 1200,
+        "iterations": 10000,
+        "seed": 17
+      }
+    },
+    "D-B": {
+      "per_seed_pp": [
+        -0.5000000000000004,
+        -0.33333333333332993,
+        -0.5833333333333357
+      ],
+      "seed17_group_bootstrap": {
+        "difference": -0.005,
+        "ci95": [
+          -0.0125,
+          0.0025
+        ],
+        "groups": 1200,
+        "images": 1200,
+        "iterations": 10000,
+        "seed": 17
+      }
+    },
+    "C-A": {
+      "per_seed_pp": [
+        -1.3333333333333308,
+        -0.666666666666671,
+        -1.0000000000000009
+      ],
+      "seed17_group_bootstrap": {
+        "difference": -0.013333333333333334,
+        "ci95": [
+          -0.030833333333333334,
+          0.004166666666666667
+        ],
+        "groups": 1200,
+        "images": 1200,
+        "iterations": 10000,
+        "seed": 17
+      }
+    },
+    "B-A": {
+      "per_seed_pp": [
+        4.416666666666669,
+        0.8333333333333304,
+        5.500000000000005
+      ],
+      "seed17_group_bootstrap": {
+        "difference": 0.04416666666666667,
+        "ci95": [
+          0.025,
+          0.06333333333333334
+        ],
+        "groups": 1200,
+        "images": 1200,
+        "iterations": 10000,
+        "seed": 17
+      }
+    }
+  },
+  "runs": [
+    {
+      "experiment": "G",
+      "seed": 17,
+      "best_epoch": 18,
+      "dev_accuracy": 0.8041666666666667,
+      "train_accuracy_at_best": 0.8028571428571428,
+      "final_train_accuracy": 0.81125,
+      "final_dev_accuracy": 0.8016666666666666,
+      "final_train_loss": 0.4259683731624058,
+      "final_dev_loss": 0.4233826905240615,
+      "parameters": 2795297,
+      "epoch_median_seconds": 121.04323749999821,
+      "environment": {
+        "python": "3.12.7",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "torch": "2.5.1",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.8041666666666667,
+        "roc_auc": 0.8851527777777778,
+        "confusion_matrix": [
+          [
+            492,
+            108
+          ],
+          [
+            127,
+            473
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.7948303715670436,
+            "recall": 0.82
+          },
+          {
+            "label": 1,
+            "precision": 0.8141135972461274,
+            "recall": 0.7883333333333333
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "G",
+      "seed": 29,
+      "best_epoch": 18,
+      "dev_accuracy": 0.805,
+      "train_accuracy_at_best": 0.81,
+      "final_train_accuracy": 0.81,
+      "final_dev_accuracy": 0.8016666666666666,
+      "final_train_loss": 0.42832834724869046,
+      "final_dev_loss": 0.43504393447190526,
+      "parameters": 2795297,
+      "epoch_median_seconds": 132.0312830000039,
+      "environment": {
+        "python": "3.12.7",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "torch": "2.5.1",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.805,
+        "roc_auc": 0.8780972222222222,
+        "confusion_matrix": [
+          [
+            497,
+            103
+          ],
+          [
+            131,
+            469
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.7914012738853503,
+            "recall": 0.8283333333333334
+          },
+          {
+            "label": 1,
+            "precision": 0.8199300699300699,
+            "recall": 0.7816666666666666
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "G",
+      "seed": 43,
+      "best_epoch": 20,
+      "dev_accuracy": 0.805,
+      "train_accuracy_at_best": 0.7991071428571429,
+      "final_train_accuracy": 0.7991071428571429,
+      "final_dev_accuracy": 0.805,
+      "final_train_loss": 0.43672158752168927,
+      "final_dev_loss": 0.4376776948198676,
+      "parameters": 2795297,
+      "epoch_median_seconds": 126.43114505000267,
+      "environment": {
+        "python": "3.12.7",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "torch": "2.5.1",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.805,
+        "roc_auc": 0.8791722222222222,
+        "confusion_matrix": [
+          [
+            490,
+            110
+          ],
+          [
+            124,
+            476
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.7980456026058632,
+            "recall": 0.8166666666666667
+          },
+          {
+            "label": 1,
+            "precision": 0.8122866894197952,
+            "recall": 0.7933333333333333
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "A",
+      "seed": 17,
+      "best_epoch": 19,
+      "dev_accuracy": 0.8708333333333333,
+      "train_accuracy_at_best": 0.8585714285714285,
+      "final_train_accuracy": 0.85375,
+      "final_dev_accuracy": 0.8666666666666667,
+      "final_train_loss": 0.37944349050521853,
+      "final_dev_loss": 0.3150744019945462,
+      "parameters": 2795297,
+      "epoch_median_seconds": 124.62645284999599,
+      "environment": {
+        "python": "3.12.7",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "torch": "2.5.1",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.8708333333333333,
+        "roc_auc": 0.9414111111111111,
+        "confusion_matrix": [
+          [
+            492,
+            108
+          ],
+          [
+            47,
+            553
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9128014842300557,
+            "recall": 0.82
+          },
+          {
+            "label": 1,
+            "precision": 0.8366111951588502,
+            "recall": 0.9216666666666666
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "A",
+      "seed": 29,
+      "best_epoch": 18,
+      "dev_accuracy": 0.91,
+      "train_accuracy_at_best": 0.9051785714285714,
+      "final_train_accuracy": 0.905,
+      "final_dev_accuracy": 0.8958333333333334,
+      "final_train_loss": 0.2961095260722297,
+      "final_dev_loss": 0.2642362653712432,
+      "parameters": 2795297,
+      "epoch_median_seconds": 139.75240869999834,
+      "environment": {
+        "python": "3.12.7",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "torch": "2.5.1",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.91,
+        "roc_auc": 0.9656777777777777,
+        "confusion_matrix": [
+          [
+            514,
+            86
+          ],
+          [
+            22,
+            578
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9589552238805971,
+            "recall": 0.8566666666666667
+          },
+          {
+            "label": 1,
+            "precision": 0.8704819277108434,
+            "recall": 0.9633333333333334
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "A",
+      "seed": 43,
+      "best_epoch": 19,
+      "dev_accuracy": 0.8608333333333333,
+      "train_accuracy_at_best": 0.8367857142857142,
+      "final_train_accuracy": 0.8344642857142858,
+      "final_dev_accuracy": 0.8516666666666667,
+      "final_train_loss": 0.4007173958846501,
+      "final_dev_loss": 0.36294534186522165,
+      "parameters": 2795297,
+      "epoch_median_seconds": 134.08342005000304,
+      "environment": {
+        "python": "3.12.7",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "torch": "2.5.1",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.8608333333333333,
+        "roc_auc": 0.9302138888888889,
+        "confusion_matrix": [
+          [
+            459,
+            141
+          ],
+          [
+            26,
+            574
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9463917525773196,
+            "recall": 0.765
+          },
+          {
+            "label": 1,
+            "precision": 0.8027972027972028,
+            "recall": 0.9566666666666667
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "B",
+      "seed": 17,
+      "best_epoch": 20,
+      "dev_accuracy": 0.915,
+      "train_accuracy_at_best": 0.8976785714285714,
+      "final_train_accuracy": 0.8976785714285714,
+      "final_dev_accuracy": 0.915,
+      "final_train_loss": 0.3540543779730797,
+      "final_dev_loss": 0.24880730378131072,
+      "parameters": 2888897,
+      "epoch_median_seconds": 126.31705725000006,
+      "environment": {
+        "python": "3.12.6",
+        "platform": "Windows-11-10.0.26300-SP0",
+        "torch": "2.5.1+cu118",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.915,
+        "roc_auc": 0.9681111111111111,
+        "confusion_matrix": [
+          [
+            525,
+            75
+          ],
+          [
+            27,
+            573
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9510869565217391,
+            "recall": 0.875
+          },
+          {
+            "label": 1,
+            "precision": 0.8842592592592593,
+            "recall": 0.955
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "B",
+      "seed": 29,
+      "best_epoch": 18,
+      "dev_accuracy": 0.9183333333333333,
+      "train_accuracy_at_best": 0.9005357142857143,
+      "final_train_accuracy": 0.8928571428571429,
+      "final_dev_accuracy": 0.8891666666666667,
+      "final_train_loss": 0.35438284056527275,
+      "final_dev_loss": 0.25872612968087194,
+      "parameters": 2888897,
+      "epoch_median_seconds": 192.0700654000011,
+      "environment": {
+        "python": "3.12.6",
+        "platform": "Windows-11-10.0.26300-SP0",
+        "torch": "2.5.1+cu118",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.9183333333333333,
+        "roc_auc": 0.9681722222222222,
+        "confusion_matrix": [
+          [
+            541,
+            59
+          ],
+          [
+            39,
+            561
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9327586206896552,
+            "recall": 0.9016666666666666
+          },
+          {
+            "label": 1,
+            "precision": 0.9048387096774193,
+            "recall": 0.935
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "B",
+      "seed": 43,
+      "best_epoch": 19,
+      "dev_accuracy": 0.9158333333333334,
+      "train_accuracy_at_best": 0.89125,
+      "final_train_accuracy": 0.8921428571428571,
+      "final_dev_accuracy": 0.9058333333333334,
+      "final_train_loss": 0.35891811553921016,
+      "final_dev_loss": 0.2519474587837855,
+      "parameters": 2888897,
+      "epoch_median_seconds": 192.03444030000173,
+      "environment": {
+        "python": "3.12.6",
+        "platform": "Windows-11-10.0.26300-SP0",
+        "torch": "2.5.1+cu118",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.9158333333333334,
+        "roc_auc": 0.9712333333333333,
+        "confusion_matrix": [
+          [
+            531,
+            69
+          ],
+          [
+            32,
+            568
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9431616341030196,
+            "recall": 0.885
+          },
+          {
+            "label": 1,
+            "precision": 0.8916797488226059,
+            "recall": 0.9466666666666667
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "C",
+      "seed": 17,
+      "best_epoch": 19,
+      "dev_accuracy": 0.8575,
+      "train_accuracy_at_best": 0.8333928571428572,
+      "final_train_accuracy": 0.8325,
+      "final_dev_accuracy": 0.8566666666666667,
+      "final_train_loss": 0.4059324789898736,
+      "final_dev_loss": 0.33858029494682945,
+      "parameters": 2795297,
+      "epoch_median_seconds": 171.5993475500004,
+      "environment": {
+        "python": "3.12.6",
+        "platform": "Windows-11-10.0.26300-SP0",
+        "torch": "2.5.1+cu118",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.8575,
+        "roc_auc": 0.9325583333333334,
+        "confusion_matrix": [
+          [
+            491,
+            109
+          ],
+          [
+            62,
+            538
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.8878842676311031,
+            "recall": 0.8183333333333334
+          },
+          {
+            "label": 1,
+            "precision": 0.8315301391035549,
+            "recall": 0.8966666666666666
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "C",
+      "seed": 29,
+      "best_epoch": 18,
+      "dev_accuracy": 0.9033333333333333,
+      "train_accuracy_at_best": 0.9055357142857143,
+      "final_train_accuracy": 0.9051785714285714,
+      "final_dev_accuracy": 0.8875,
+      "final_train_loss": 0.29697748603565355,
+      "final_dev_loss": 0.26655694474776587,
+      "parameters": 2795297,
+      "epoch_median_seconds": 185.90637479999896,
+      "environment": {
+        "python": "3.12.6",
+        "platform": "Windows-11-10.0.26300-SP0",
+        "torch": "2.5.1+cu118",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.9033333333333333,
+        "roc_auc": 0.9636583333333333,
+        "confusion_matrix": [
+          [
+            507,
+            93
+          ],
+          [
+            23,
+            577
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9566037735849057,
+            "recall": 0.845
+          },
+          {
+            "label": 1,
+            "precision": 0.8611940298507462,
+            "recall": 0.9616666666666667
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "C",
+      "seed": 43,
+      "best_epoch": 19,
+      "dev_accuracy": 0.8508333333333333,
+      "train_accuracy_at_best": 0.8416071428571429,
+      "final_train_accuracy": 0.8392857142857143,
+      "final_dev_accuracy": 0.85,
+      "final_train_loss": 0.39496216352496827,
+      "final_dev_loss": 0.34481788337230684,
+      "parameters": 2795297,
+      "epoch_median_seconds": 211.34987460000048,
+      "environment": {
+        "python": "3.12.6",
+        "platform": "Windows-11-10.0.26300-SP0",
+        "torch": "2.5.1+cu118",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.8508333333333333,
+        "roc_auc": 0.9373416666666666,
+        "confusion_matrix": [
+          [
+            452,
+            148
+          ],
+          [
+            31,
+            569
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9358178053830227,
+            "recall": 0.7533333333333333
+          },
+          {
+            "label": 1,
+            "precision": 0.793584379358438,
+            "recall": 0.9483333333333334
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "D",
+      "seed": 17,
+      "best_epoch": 20,
+      "dev_accuracy": 0.91,
+      "train_accuracy_at_best": 0.8955357142857143,
+      "final_train_accuracy": 0.8955357142857143,
+      "final_dev_accuracy": 0.91,
+      "final_train_loss": 0.35537018788712366,
+      "final_dev_loss": 0.25056594426433243,
+      "parameters": 2888897,
+      "epoch_median_seconds": 190.61818524999944,
+      "environment": {
+        "python": "3.12.6",
+        "platform": "Windows-11-10.0.26300-SP0",
+        "torch": "2.5.1+cu118",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.91,
+        "roc_auc": 0.9668111111111111,
+        "confusion_matrix": [
+          [
+            524,
+            76
+          ],
+          [
+            32,
+            568
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9424460431654677,
+            "recall": 0.8733333333333333
+          },
+          {
+            "label": 1,
+            "precision": 0.8819875776397516,
+            "recall": 0.9466666666666667
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "D",
+      "seed": 29,
+      "best_epoch": 16,
+      "dev_accuracy": 0.915,
+      "train_accuracy_at_best": 0.89,
+      "final_train_accuracy": 0.8896428571428572,
+      "final_dev_accuracy": 0.8866666666666667,
+      "final_train_loss": 0.3590001190985952,
+      "final_dev_loss": 0.2766460577150186,
+      "parameters": 2888897,
+      "epoch_median_seconds": 204.35164250000162,
+      "environment": {
+        "python": "3.12.6",
+        "platform": "Windows-11-10.0.26300-SP0",
+        "torch": "2.5.1+cu118",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.915,
+        "roc_auc": 0.9654,
+        "confusion_matrix": [
+          [
+            531,
+            69
+          ],
+          [
+            33,
+            567
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9414893617021277,
+            "recall": 0.885
+          },
+          {
+            "label": 1,
+            "precision": 0.8915094339622641,
+            "recall": 0.945
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "D",
+      "seed": 43,
+      "best_epoch": 19,
+      "dev_accuracy": 0.91,
+      "train_accuracy_at_best": 0.8880357142857143,
+      "final_train_accuracy": 0.8855357142857143,
+      "final_dev_accuracy": 0.8908333333333334,
+      "final_train_loss": 0.3678915142587253,
+      "final_dev_loss": 0.2883951044579347,
+      "parameters": 2888897,
+      "epoch_median_seconds": 221.02860299999884,
+      "environment": {
+        "python": "3.12.6",
+        "platform": "Windows-11-10.0.26300-SP0",
+        "torch": "2.5.1+cu118",
+        "numpy": "2.4.4",
+        "cuda_runtime": "11.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.91,
+        "roc_auc": 0.9645472222222222,
+        "confusion_matrix": [
+          [
+            521,
+            79
+          ],
+          [
+            29,
+            571
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9472727272727273,
+            "recall": 0.8683333333333333
+          },
+          {
+            "label": 1,
+            "precision": 0.8784615384615385,
+            "recall": 0.9516666666666667
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "E",
+      "seed": 17,
+      "best_epoch": 20,
+      "dev_accuracy": 0.7475,
+      "train_accuracy_at_best": 0.7294642857142857,
+      "final_train_accuracy": 0.7294642857142857,
+      "final_dev_accuracy": 0.7475,
+      "final_train_loss": 0.5379004787547248,
+      "final_dev_loss": 0.5215044248104096,
+      "parameters": 2888897,
+      "epoch_median_seconds": 107.43404545006342,
+      "environment": {
+        "python": "3.13.13",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "torch": "2.7.1+cu128",
+        "numpy": "2.4.4",
+        "cuda_runtime": "12.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.7475,
+        "roc_auc": 0.8240722222222222,
+        "confusion_matrix": [
+          [
+            465,
+            135
+          ],
+          [
+            168,
+            432
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.7345971563981043,
+            "recall": 0.775
+          },
+          {
+            "label": 1,
+            "precision": 0.7619047619047619,
+            "recall": 0.72
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "E",
+      "seed": 29,
+      "best_epoch": 18,
+      "dev_accuracy": 0.7625,
+      "train_accuracy_at_best": 0.73875,
+      "final_train_accuracy": 0.74125,
+      "final_dev_accuracy": 0.7583333333333333,
+      "final_train_loss": 0.5265128718103681,
+      "final_dev_loss": 0.5150443019469579,
+      "parameters": 2888897,
+      "epoch_median_seconds": 108.9655779999448,
+      "environment": {
+        "python": "3.13.13",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "torch": "2.7.1+cu128",
+        "numpy": "2.4.4",
+        "cuda_runtime": "12.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.7625,
+        "roc_auc": 0.8284472222222222,
+        "confusion_matrix": [
+          [
+            431,
+            169
+          ],
+          [
+            116,
+            484
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.7879341864716636,
+            "recall": 0.7183333333333334
+          },
+          {
+            "label": 1,
+            "precision": 0.7411944869831547,
+            "recall": 0.8066666666666666
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "E",
+      "seed": 43,
+      "best_epoch": 19,
+      "dev_accuracy": 0.7475,
+      "train_accuracy_at_best": 0.7182142857142857,
+      "final_train_accuracy": 0.7225,
+      "final_dev_accuracy": 0.7333333333333333,
+      "final_train_loss": 0.5556339815684728,
+      "final_dev_loss": 0.5494489441315333,
+      "parameters": 2888897,
+      "epoch_median_seconds": 108.71206169994548,
+      "environment": {
+        "python": "3.13.13",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "torch": "2.7.1+cu128",
+        "numpy": "2.4.4",
+        "cuda_runtime": "12.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.7475,
+        "roc_auc": 0.8141916666666666,
+        "confusion_matrix": [
+          [
+            453,
+            147
+          ],
+          [
+            156,
+            444
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.7438423645320197,
+            "recall": 0.755
+          },
+          {
+            "label": 1,
+            "precision": 0.751269035532995,
+            "recall": 0.74
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "F",
+      "seed": 17,
+      "best_epoch": 20,
+      "dev_accuracy": 0.79,
+      "train_accuracy_at_best": 0.7644642857142857,
+      "final_train_accuracy": 0.7644642857142857,
+      "final_dev_accuracy": 0.79,
+      "final_train_loss": 0.5015703702824457,
+      "final_dev_loss": 0.4639041390021642,
+      "parameters": 2888897,
+      "epoch_median_seconds": 110.05791469989344,
+      "environment": {
+        "python": "3.13.13",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "torch": "2.7.1+cu128",
+        "numpy": "2.4.4",
+        "cuda_runtime": "12.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.79,
+        "roc_auc": 0.8655277777777778,
+        "confusion_matrix": [
+          [
+            469,
+            131
+          ],
+          [
+            121,
+            479
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.7949152542372881,
+            "recall": 0.7816666666666666
+          },
+          {
+            "label": 1,
+            "precision": 0.7852459016393443,
+            "recall": 0.7983333333333333
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "F",
+      "seed": 29,
+      "best_epoch": 18,
+      "dev_accuracy": 0.7658333333333334,
+      "train_accuracy_at_best": 0.7428571428571429,
+      "final_train_accuracy": 0.7519642857142858,
+      "final_dev_accuracy": 0.7625,
+      "final_train_loss": 0.5166008631672178,
+      "final_dev_loss": 0.49741585036118824,
+      "parameters": 2888897,
+      "epoch_median_seconds": 109.79429754999,
+      "environment": {
+        "python": "3.13.13",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "torch": "2.7.1+cu128",
+        "numpy": "2.4.4",
+        "cuda_runtime": "12.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.7658333333333334,
+        "roc_auc": 0.8438805555555555,
+        "confusion_matrix": [
+          [
+            430,
+            170
+          ],
+          [
+            111,
+            489
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.7948243992606284,
+            "recall": 0.7166666666666667
+          },
+          {
+            "label": 1,
+            "precision": 0.7420333839150227,
+            "recall": 0.815
+          }
+        ],
+        "threshold": 0.5
+      }
+    },
+    {
+      "experiment": "F",
+      "seed": 43,
+      "best_epoch": 18,
+      "dev_accuracy": 0.7258333333333333,
+      "train_accuracy_at_best": 0.7108928571428571,
+      "final_train_accuracy": 0.7130357142857143,
+      "final_dev_accuracy": 0.7158333333333333,
+      "final_train_loss": 0.5712078418901988,
+      "final_dev_loss": 0.5709732862313589,
+      "parameters": 2888897,
+      "epoch_median_seconds": 104.7214746499667,
+      "environment": {
+        "python": "3.13.13",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "torch": "2.7.1+cu128",
+        "numpy": "2.4.4",
+        "cuda_runtime": "12.8",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "amp": true,
+        "deterministic_algorithms": true
+      },
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.7258333333333333,
+        "roc_auc": 0.7782527777777778,
+        "confusion_matrix": [
+          [
+            404,
+            196
+          ],
+          [
+            133,
+            467
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.7523277467411545,
+            "recall": 0.6733333333333333
+          },
+          {
+            "label": 1,
+            "precision": 0.7043740573152338,
+            "recall": 0.7783333333333333
+          }
+        ],
+        "threshold": 0.5
+      }
+    }
+  ]
+}

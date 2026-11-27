@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "training_files_sha256_verified": 8000,
+  "test_files_byte_hash_verified": 1000,
+  "split_sha256": "5b2303b63c94085d65c1c33029a2a541b056444b3544ab213057ec05d4d5348f",
+  "counts_by_split_label": {
+    "dev/0": 600,
+    "dev/1": 600,
+    "holdout/0": 600,
+    "holdout/1": 600,
+    "train/0": 2800,
+    "train/1": 2800
+  },
+  "statistics_recomputed_train_only": true,
+  "batch_checks": [
+    {
+      "experiment": "G",
+      "mode": "global",
+      "shape": [
+        16,
+        3,
+        224,
+        224
+      ],
+      "epoch_replay_equal": true
+    },
+    {
+      "experiment": "A",
+      "mode": "local",
+      "shape": [
+        16,
+        3,
+        224,
+        224
+      ],
+      "epoch_replay_equal": true
+    }
+  ],
+  "test_pixels_decoded": false,
+  "holdout_loader_created": false,
+  "model_training_performed": false,
+  "submission_template_ids_verified": 1000
+}

@@ -1,0 +1,80 @@
+{
+  "metrics": {
+    "count": 1200,
+    "accuracy": 0.9158333333333334,
+    "roc_auc": 0.9712333333333333,
+    "confusion_matrix": [
+      [
+        531,
+        69
+      ],
+      [
+        32,
+        568
+      ]
+    ],
+    "per_class": [
+      {
+        "label": 0,
+        "precision": 0.9431616341030196,
+        "recall": 0.885
+      },
+      {
+        "label": 1,
+        "precision": 0.8916797488226059,
+        "recall": 0.9466666666666667
+      }
+    ],
+    "threshold": 0.5
+  },
+  "split": "dev",
+  "condition": "clean",
+  "patches": 1,
+  "aggregation": "mean_probability",
+  "checkpoint_sha256": "1f2cb15fe32be91408a07b8484efd40007473f0ef0b3daf1ebf5e83c967a3043",
+  "source_sha256": "70256c817339b0db612c00439e1a73460c9ddc05793549d96755776ebddf1669",
+  "evaluator_sha256": "b283e26d0f0daba1f7f478e95fae800141ee05eaf0f622a5f9b2636ca6d722af",
+  "manifest_sha256": "5b2303b63c94085d65c1c33029a2a541b056444b3544ab213057ec05d4d5348f",
+  "config": {
+    "experiment": "B",
+    "status": "frozen_budget",
+    "seed": 43,
+    "model": {
+      "width": 32,
+      "branch": "residual"
+    },
+    "data": {
+      "mode": "local",
+      "image_size": 224,
+      "root": "data/official",
+      "manifest": "data/splits.csv",
+      "jpeg_quality": [
+        60,
+        100
+      ]
+    },
+    "training": {
+      "epochs": 20,
+      "batch_size": 16,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "consistency": 0.0,
+      "warmup_fraction": 0.1,
+      "workers": 0,
+      "amp": true
+    },
+    "adapter": "team_data:build_loaders",
+    "adapter_source_sha256": "29757518fc7ef14103acb95443b84d0956a7bae56109838e9a1fdddf09c1c8ca"
+  },
+  "torch_version": "2.7.1+cu128",
+  "device": "cuda",
+  "batch_size": 16,
+  "numpy_version": "2.4.4",
+  "pillow_version": "12.2.0",
+  "wall_seconds": 8.198226599954069,
+  "images_per_second": 146.37311928005542,
+  "peak_vram_bytes": 578267136,
+  "holdout_evaluated": false,
+  "test_pixels_decoded": false,
+  "predictions_sha256": "66c45f403d760abefe40eee7520e0d61d5ae0a8cdba1c0a032c719aaea378ba9"
+}

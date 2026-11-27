@@ -1,4 +1,14 @@
-> **GitHub 仓库版说明**：本仓库只含代码、配置、文档、审计清单与 G/A 六次实验的日志/结果（约 9 MB）。
+> **2026-11-27 更新**：冻结B方案的holdout确认已完成，三种子准确率91.14%±0.55个百分点，方案保持不变。见[holdout确认报告](docs/成员3_holdout确认_2026-11-27.md)；结果与核验附件见 [v1.4-member3-holdout](https://github.com/echo060702/cv-project/releases/tag/v1.4-member3-holdout)。
+
+> **2026-11-26 成员3更新**：E/F 六次训练、全七组 144 项独立 dev 评估及方案冻结已完成；选定 B / 单裁剪 / 阈值 0.5。holdout、最终 refit、提交 CSV 和论文展示待完成。结果、限制与复现入口见 [成员3交付与复现](docs/成员3_交付与复现.md)。下文为成员1历史交接说明。
+
+> **2026-11-25 交付分支状态**：已纳入成员2 B/C/D交付与成员3 E/F全部六次、120轮结果。
+> E/F权重和结果位于 `runs/member3/`、`results/member3/`；权重通过 Release 附件提供，不进入git。
+> 当前复现入口、环境差异及证据位置见 [成员3交付与复现](docs/成员3_交付与复现.md)。
+> 本地汇总和32项发布自测通过；历史CUDA重放报告与原自动汇总失败日志均保留。
+> 以下为成员1的历史交接说明，原离线包的清单验证命令不适用于当前整合工作区。
+
+> **成员1历史 GitHub 仓库版说明**：当时仓库只含代码、配置、文档、审计清单与 G/A 六次实验的日志/结果（约 9 MB）。
 > 官方图像与 checkpoint 不进入 git（单文件超 GitHub 100 MB 限制）。
 > 权重从 [Release v1.0-weights](https://github.com/echo060702/cv-project/releases/tag/v1.0-weights) 下载 `checkpoints.zip`，
 > 图像从官方 Hugging Face 数据集获取；步骤与 SHA256 见 `docs/仓库说明_数据与权重获取.md`。

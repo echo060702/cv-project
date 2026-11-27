@@ -1,0 +1,11 @@
+{
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "torch": "2.5.1+cu118",
+  "numpy": "2.4.4",
+  "cuda_runtime": "11.8",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "amp": true,
+  "deterministic_algorithms": true
+}

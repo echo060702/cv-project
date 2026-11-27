@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "team_data.py",
+      "unchanged": true,
+      "sha256": "29757518fc7ef14103acb95443b84d0956a7bae56109838e9a1fdddf09c1c8ca"
+    },
+    {
+      "path": "tools/prepare_data.py",
+      "unchanged": true,
+      "sha256": "667370e3c154522ef4e6679cd2d6ee9f3ba20b451b049906b2d99a9dc4fd6fde"
+    },
+    {
+      "path": "cvdetect/contracts.py",
+      "unchanged": true,
+      "sha256": "5bbc6970776f81cc5ee3030f7d91e6e898f5990a86e374ea19e4e0114f1b2be6"
+    },
+    {
+      "path": "cvdetect/engine.py",
+      "unchanged": true,
+      "sha256": "b6f7e593b9bdf32c3d5721bce8752305b9d6c5106d904086fed09cfda7793276"
+    },
+    {
+      "path": "cvdetect/inference.py",
+      "unchanged": true,
+      "sha256": "157056229544f2f081cb423067e6417169f7bcf60683911d7bdb0657cb2c064d"
+    },
+    {
+      "path": "cvdetect/losses.py",
+      "unchanged": true,
+      "sha256": "4c6078c5a1466f7cfd40c3e03b70bd35fe0f88aa5d8518ee0a8ca49d32d93b11"
+    },
+    {
+      "path": "cvdetect/model.py",
+      "unchanged": true,
+      "sha256": "a40f9309435f7bf3237fa838ba8ea0372f68e88d2f3f0a436cb1e15061be7e36"
+    },
+    {
+      "path": "cvdetect/refit.py",
+      "unchanged": true,
+      "sha256": "12ef36cda7b11c0e287d2b01f6d7dc52d6d7a9c93e32c3a246f8e32d83a21d53"
+    },
+    {
+      "path": "cvdetect/train.py",
+      "unchanged": true,
+      "sha256": "935d8bda80638f04aa40c70ed80f5748398d23ec33e9b298e21a5bfd96c25c29"
+    },
+    {
+      "path": "cvdetect/__init__.py",
+      "unchanged": true,
+      "sha256": "f55f363e1735fc60b7f17ba133e1a115721cc7dc59d1661cdb16d8def584bc4b"
+    }
+  ]
+}

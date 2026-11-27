@@ -1,0 +1,269 @@
+{
+  "checked_at": "2026-11-26T18:36:27.373422+08:00",
+  "archive": "CV_Evaluation_Freeze_20261126.zip",
+  "archive_sha256": "b58810ab5f4af90e355cec3fd20971ecebef3a6083ea3125a73f9fe276e1e486",
+  "archive_hash_verified": true,
+  "manifest_files_verified": 425,
+  "issues": [],
+  "dev_jobs_verified": 144,
+  "prediction_rows_recomputed": 172800,
+  "checkpoint_hashes_verified": 21,
+  "selection_rule_verified": true,
+  "selected": {
+    "experiment": "B",
+    "patches": 1,
+    "parameters": 2888897,
+    "mean": 0.9163888888888889,
+    "sample_std": 0.0017347216662217551,
+    "mean_wall_seconds": 8.119248333309466
+  },
+  "clean_results": [
+    {
+      "experiment": "G",
+      "patches": 1,
+      "parameters": 2795297,
+      "mean": 0.8047222222222222,
+      "sample_std": 0.0004811252243246992,
+      "mean_wall_seconds": 9.738432666597268
+    },
+    {
+      "experiment": "A",
+      "patches": 1,
+      "parameters": 2795297,
+      "mean": 0.8802777777777778,
+      "sample_std": 0.026145072476755838,
+      "mean_wall_seconds": 8.014713066630065
+    },
+    {
+      "experiment": "B",
+      "patches": 1,
+      "parameters": 2888897,
+      "mean": 0.9163888888888889,
+      "sample_std": 0.0017347216662217551,
+      "mean_wall_seconds": 8.119248333309466
+    },
+    {
+      "experiment": "C",
+      "patches": 1,
+      "parameters": 2795297,
+      "mean": 0.8705555555555555,
+      "sample_std": 0.028581430127762104,
+      "mean_wall_seconds": 8.029110233377045
+    },
+    {
+      "experiment": "D",
+      "patches": 1,
+      "parameters": 2888897,
+      "mean": 0.9116666666666667,
+      "sample_std": 0.0028867513459481316,
+      "mean_wall_seconds": 8.21552456667026
+    },
+    {
+      "experiment": "E",
+      "patches": 1,
+      "parameters": 2888897,
+      "mean": 0.7525000000000001,
+      "sample_std": 0.00866025403784433,
+      "mean_wall_seconds": 8.188538700031737
+    },
+    {
+      "experiment": "F",
+      "patches": 1,
+      "parameters": 2888897,
+      "mean": 0.7605555555555555,
+      "sample_std": 0.032407275132005205,
+      "mean_wall_seconds": 8.211326100009805
+    }
+  ],
+  "B_pressure": [
+    {
+      "experiment": "B",
+      "patches": 1,
+      "condition": "clean",
+      "accuracy_mean": 0.9163888888888889,
+      "accuracy_sample_std": 0.0017347216662217551,
+      "roc_auc_mean": 0.9691722222222222,
+      "wall_seconds_mean": 8.119248333309466
+    },
+    {
+      "experiment": "B",
+      "patches": 1,
+      "condition": "jpeg90",
+      "accuracy_mean": 0.7933333333333333,
+      "accuracy_sample_std": 0.003818813079129846,
+      "roc_auc_mean": 0.900387962962963,
+      "wall_seconds_mean": 10.94267849996686
+    },
+    {
+      "experiment": "B",
+      "patches": 1,
+      "condition": "jpeg70",
+      "accuracy_mean": 0.8427777777777778,
+      "accuracy_sample_std": 0.004194352464039292,
+      "roc_auc_mean": 0.9238925925925926,
+      "wall_seconds_mean": 10.533026966654385
+    },
+    {
+      "experiment": "B",
+      "patches": 1,
+      "condition": "jpeg50",
+      "accuracy_mean": 0.8594444444444445,
+      "accuracy_sample_std": 0.003469443332443528,
+      "roc_auc_mean": 0.9330527777777778,
+      "wall_seconds_mean": 10.390369566700732
+    },
+    {
+      "experiment": "B",
+      "patches": 1,
+      "condition": "jpeg30",
+      "accuracy_mean": 0.8586111111111111,
+      "accuracy_sample_std": 0.005357583756107194,
+      "roc_auc_mean": 0.9182805555555555,
+      "wall_seconds_mean": 10.152315733255818
+    },
+    {
+      "experiment": "B",
+      "patches": 1,
+      "condition": "scale05",
+      "accuracy_mean": 0.5013888888888889,
+      "accuracy_sample_std": 0.0009622504486493344,
+      "roc_auc_mean": 0.5906138888888889,
+      "wall_seconds_mean": 8.604322499983633
+    },
+    {
+      "experiment": "B",
+      "patches": 5,
+      "condition": "clean",
+      "accuracy_mean": 0.9086111111111111,
+      "accuracy_sample_std": 0.003757708127352388,
+      "roc_auc_mean": 0.976812037037037,
+      "wall_seconds_mean": 21.485925933346152
+    }
+  ],
+  "metadata_format_only": {
+    "count": 1200,
+    "accuracy": 1.0,
+    "roc_auc": 1.0,
+    "confusion_matrix": [
+      [
+        600,
+        0
+      ],
+      [
+        0,
+        600
+      ]
+    ],
+    "per_class": [
+      {
+        "label": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      {
+        "label": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    ],
+    "threshold": 0.5
+  },
+  "training_runs": [
+    {
+      "run": "A_seed17",
+      "epochs": 20
+    },
+    {
+      "run": "A_seed29",
+      "epochs": 20
+    },
+    {
+      "run": "A_seed43",
+      "epochs": 20
+    },
+    {
+      "run": "G_seed17",
+      "epochs": 20
+    },
+    {
+      "run": "G_seed29",
+      "epochs": 20
+    },
+    {
+      "run": "G_seed43",
+      "epochs": 20
+    },
+    {
+      "run": "B_seed17",
+      "epochs": 20
+    },
+    {
+      "run": "B_seed29",
+      "epochs": 20
+    },
+    {
+      "run": "B_seed43",
+      "epochs": 20
+    },
+    {
+      "run": "C_seed17",
+      "epochs": 20
+    },
+    {
+      "run": "C_seed29",
+      "epochs": 20
+    },
+    {
+      "run": "C_seed43",
+      "epochs": 20
+    },
+    {
+      "run": "D_seed17",
+      "epochs": 20
+    },
+    {
+      "run": "D_seed29",
+      "epochs": 20
+    },
+    {
+      "run": "D_seed43",
+      "epochs": 20
+    },
+    {
+      "run": "E_seed17",
+      "epochs": 20
+    },
+    {
+      "run": "E_seed29",
+      "epochs": 20
+    },
+    {
+      "run": "E_seed43",
+      "epochs": 20
+    },
+    {
+      "run": "F_seed17",
+      "epochs": 20
+    },
+    {
+      "run": "F_seed29",
+      "epochs": 20
+    },
+    {
+      "run": "F_seed43",
+      "epochs": 20
+    }
+  ],
+  "frozen_at_utc": "2026-11-26T04:36:45.437269+00:00",
+  "background_state": {
+    "status": "dev_complete_and_frozen",
+    "pid": 29684,
+    "updated_unix": 1795667806.1171925,
+    "holdout_evaluated": false
+  },
+  "total_inference_minutes": 26.98135998667761,
+  "holdout_evaluated": false,
+  "test_pixels_decoded": false,
+  "gpu_inference_rerun": false,
+  "project_results_imported": true
+}

@@ -1,0 +1,12 @@
+# Training provenance hashes source bytes; keep Python files identical on Windows and Linux.
+*.py text eol=lf
+
+# Preserve byte hashes in frozen evaluation evidence on every checkout.
+results/evaluation/** -text whitespace=-blank-at-eol
+results/evaluation_freeze.json -text whitespace=-blank-at-eol
+results/selection_summary.json -text whitespace=-blank-at-eol
+validation/member3_evaluation_delivery/** -text whitespace=-blank-at-eol
+
+# Holdout confirmation files are also linked by byte hashes.
+results/holdout_confirmation/** -text whitespace=-blank-at-eol
+validation/member3_holdout_* -text whitespace=-blank-at-eol

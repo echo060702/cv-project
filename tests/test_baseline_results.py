@@ -1,15 +1,53 @@
 """结果核验微型fixture；不产生正式识别成绩。"""
 import csv
+import hashlib
 import importlib.util
 import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 import torch
 
 
 class BaselineResultTests(unittest.TestCase):
+    def test_explicit_authorization_is_used_and_stale_inputs_are_rejected(self):
+        from cvdetect.engine import source_fingerprint
+        from tools.summarize_baselines import main
+        valid = dict(source_sha256=source_fingerprint(),
+                     data_adapter_sha256=hashlib.sha256(Path('team_data.py').read_bytes()).hexdigest(),
+                     split_sha256=hashlib.sha256(Path('data/splits.csv').read_bytes()).hexdigest())
+        with tempfile.TemporaryDirectory() as temporary:
+            auth = Path(temporary)/'member3_freeze.json'
+            args = ['summarize', '--authorization', str(auth), '--experiments', 'E', 'F']
+            auth.write_text(json.dumps(valid), encoding='utf-8')
+            # A valid custom freeze reaches run auditing without consulting the legacy path.
+            with patch('sys.argv', args), patch('tools.summarize_baselines.inspect_run',
+                                               side_effect=RuntimeError('reached run audit')):
+                with self.assertRaisesRegex(RuntimeError, 'reached run audit'):
+                    main()
+            for key in valid:
+                with self.subTest(key=key):
+                    auth.write_text(json.dumps({**valid, key: '0'*64}), encoding='utf-8')
+                    with patch('sys.argv', args), patch('tools.summarize_baselines.inspect_run') as audit:
+                        with self.assertRaisesRegex(ValueError, key):
+                            main()
+                        audit.assert_not_called()
+
+    def test_member3_queue_passes_its_freeze_to_final_summary(self):
+        from tools import run_member3
+        with tempfile.TemporaryDirectory() as temporary:
+            with patch.object(run_member3, 'ROOT', Path(temporary)), \
+                 patch.object(run_member3, 'freeze_execution'), \
+                 patch.object(run_member3.subprocess, 'run') as run, \
+                 patch('sys.argv', ['run_member3', '--device', 'cpu']):
+                run_member3.main()
+            self.assertEqual(run.call_count, 7)  # six training requests and one summary
+            command = run.call_args_list[-1].args[0]
+            self.assertEqual(command[command.index('--authorization')+1],
+                             'validation/member3_execution_freeze.json')
+
     def fixture(self, root):
         from cvdetect.engine import source_fingerprint
         config = json.loads(Path('configs/G.json').read_text(encoding='utf-8'))

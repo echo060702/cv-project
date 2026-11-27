@@ -1,6 +1,6 @@
 {
   "source": "协作任务板.csv",
-  "updated": "2026-11-22",
+  "updated": "2026-11-25",
   "tasks": [
     {
       "task_id": "D01",
@@ -56,7 +56,7 @@
       "task": "B/C/D三种子正式训练",
       "depends_on": "M03",
       "deliverable": "9组official日志及checkpoint",
-      "status": "可开始_无需G_A_直接做B/C/D"
+      "status": "已完成_BCD九次各20轮_成员2交付"
     },
     {
       "task_id": "D04",
@@ -87,8 +87,8 @@
       "owner": "成员2",
       "task": "B/C/D各三种子正式运行",
       "depends_on": "D04",
-      "deliverable": "2组official日志及checkpoint",
-      "status": "可开始_共享工程与六次基线结果已交付"
+      "deliverable": "9组official日志及checkpoint",
+      "status": "已完成_BCD九次各20轮_成员2交付"
     },
     {
       "task_id": "D06",
@@ -104,7 +104,7 @@
       "task": "E/F三种子正式训练",
       "depends_on": "M03",
       "deliverable": "6组official日志及checkpoint",
-      "status": "可开始"
+      "status": "已完成_EF六次各20轮_CUDA重放记录已交付"
     },
     {
       "task_id": "E02",
@@ -112,7 +112,7 @@
       "task": "独立评价与图表接口",
       "depends_on": "无",
       "deliverable": "team_eval.py及结果表",
-      "status": "待开始"
+      "status": "部分完成_dev独立评价接口与基础图表_压力评估待执行"
     },
     {
       "task_id": "E03",
@@ -120,7 +120,7 @@
       "task": "开发汇总与冻结确认评估",
       "depends_on": "M04+D04+E01+E02",
       "deliverable": "汇总结果及冻结文件",
-      "status": "待开始"
+      "status": "部分完成_dev汇总_评估冻结与holdout待执行"
     },
     {
       "task_id": "M05",

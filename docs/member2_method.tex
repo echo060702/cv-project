@@ -1,0 +1,103 @@
+% Method/settings fragment for the team's CVPR report; not a complete paper.
+% This fragment describes the delivered implementation and contains no performance claims.
+\section{Method}
+\label{sec:method}
+
+We study binary detection of AI-generated images under a strict prohibition on
+pretrained weights. The target is $y=1$ for generated images and $y=0$ for real
+images. All networks start from random initialization. We investigate local RGB
+appearance, a fixed residual input, and prediction consistency under JPEG
+re-encoding through controlled ablations.
+
+\paragraph{Aligned image pairs.}
+We correct EXIF orientation and convert each image to RGB. For local inputs, we
+preserve the original resolution and apply symmetric reflection padding when a
+side is shorter than 224 pixels. During training, an image is horizontally
+flipped with probability $0.5$ and re-encoded as JPEG with integer quality sampled
+uniformly from $[60,100]$, with chroma subsampling disabled. Re-encoding is applied
+to the entire transformed image before cropping. The normal and JPEG views use
+the same random $224\times224$ crop. Development inference uses a deterministic
+center crop of the normal view. The global baseline instead resizes the whole
+image to $224\times224$ using bilinear interpolation.
+
+\paragraph{RGB and auxiliary encoders.}
+The RGB encoder uses a ResNet-18-style structure with a $3\times3$, stride-one
+stem, no initial max pooling, and two residual blocks in each of four stages.
+The stage widths are $32,64,128,256$. Global average pooling yields a
+256-dimensional feature. RGB values in $[0,1]$ are normalized using channel
+statistics estimated exclusively from the 5,600 training images.
+
+For the residual variant, we compute a fixed, channel-wise high-pass input
+\begin{equation}
+ r(x)=x-\operatorname{AvgPool}_{3\times3}(x),
+\end{equation}
+using reflection padding and stride one. This operation is applied to raw RGB,
+and its output is divided by the same training-channel standard deviations;
+we do not subtract the RGB means from the residual. The auxiliary encoder has
+three $3\times3$, stride-two convolution--BatchNorm--ReLU stages with widths
+$32,64,128$, followed by global average pooling. We concatenate its 128-dimensional
+output with the RGB representation and predict one logit using a linear head.
+The single RGB model has 2,795,297 trainable parameters; each fused model has
+2,888,897. The capacity control uses the identical auxiliary architecture and
+head but supplies normalized RGB instead of the fixed residual. It therefore
+matches the residual variant's trainable parameter count exactly.
+
+\paragraph{Supervision and consistency.}
+Let $z=f_\theta(x)$ and $\tilde z=f_\theta(\tilde x)$ denote the logits of an
+aligned normal/JPEG pair. Both views are concatenated into a single forward
+pass, so BatchNorm observes the same mixed batch. All experimental groups use
+the same paired supervision,
+\begin{equation}
+ \mathcal L_{\mathrm{sup}}=\tfrac12\big[
+ \operatorname{BCE}(z,y)+\operatorname{BCE}(\tilde z,y)\big].
+\end{equation}
+For $P=\operatorname{Bernoulli}(\sigma(z))$ and
+$Q=\operatorname{Bernoulli}(\sigma(\tilde z))$, we use
+\begin{align}
+ M&=\tfrac12(P+Q),\\
+ \operatorname{JS}(P,Q)&=\tfrac12\operatorname{KL}(P\Vert M)
+                       +\tfrac12\operatorname{KL}(Q\Vert M),\\
+ \mathcal L&=\mathcal L_{\mathrm{sup}}+\lambda_t\operatorname{JS}(P,Q).
+\end{align}
+The implementation computes Bernoulli log probabilities with log-sigmoid and
+the mixture with log-add-exp in float32. For a total of $T$ optimization steps,
+the enabled coefficient is
+$\lambda_t=0.1\min\{1,t/\lceil0.1T\rceil\}$ for one-indexed step $t$.
+The disabled setting uses $\lambda_t=0$ while retaining both views and their BCE
+terms. At the frozen batch size there are 350 steps per epoch and 7,000 in total;
+the ramp reaches $0.1$ at step 700.
+
+\section{Experimental Settings}
+\label{sec:settings}
+
+The fixed labeled-data split contains 5,600 training, 1,200 development, and
+1,200 held-out images, with equal class counts in each split. The official
+unlabeled test set is excluded from training, normalization, and model
+selection. The training-channel statistics are estimated after resizing each
+training image to $128\times128$ with equal image weighting. The means are
+$(0.483540,0.458205,0.404792)$ and the standard deviations are
+$(0.270488,0.262578,0.276671)$.
+
+Every research group uses 20 epochs, batch size 16 image pairs, AdamW with
+initial learning rate $10^{-3}$ and weight decay $10^{-4}$, cosine annealing,
+automatic mixed precision, and seeds 17, 29, and 43. A batch of 16 pairs is
+forwarded as 32 view tensors; it is not a batch of 16 total views. We select
+checkpoints using development accuracy at threshold $0.5$, breaking ties by
+lower BCE and then earlier epoch. Reported development results are therefore
+selection-set measurements, not independent generalization estimates.
+
+The local factorial design compares A (RGB), B (RGB plus residual), C (RGB plus
+consistency), and D (both). E and F replace the residual branch with a second
+RGB branch, without and with consistency, respectively; these capacity controls
+must be available before attributing an improvement specifically to residual
+inputs. G measures the global-resize baseline. We report seed means and sample
+standard deviations, as well as paired differences for matching seeds.
+
+Real images in this dataset are all JPEG and generated images are all PNG;
+813 labeled images have a short side below 224 pixels. Consequently, format,
+source, resolution, and padding artifacts are potential shortcuts. Random
+splits and paired JPEG augmentation alone do not establish cross-source
+generalization or robustness. The independent evaluation, capacity controls,
+and frozen held-out confirmation are reported separately by the evaluation
+owner. Full-data refitting occurs only after the final method and recipe are
+frozen and does not use development or held-out results to select an epoch.

@@ -1,0 +1,67 @@
+test_explicit_authorization_is_used_and_stale_inputs_are_rejected (test_baseline_results.BaselineResultTests.test_explicit_authorization_is_used_and_stale_inputs_are_rejected) ... ok
+test_incomplete_or_misaligned_artifacts_are_rejected (test_baseline_results.BaselineResultTests.test_incomplete_or_misaligned_artifacts_are_rejected) ... ok
+starting E seed=17
+finished E seed=17
+starting F seed=17
+finished F seed=17
+starting E seed=29
+finished E seed=29
+starting F seed=29
+finished F seed=29
+starting E seed=43
+finished E seed=43
+starting F seed=43
+finished F seed=43
+test_member3_queue_passes_its_freeze_to_final_summary (test_baseline_results.BaselineResultTests.test_member3_queue_passes_its_freeze_to_final_summary) ... ok
+test_results_auditor_is_delivered (test_baseline_results.BaselineResultTests.test_results_auditor_is_delivered) ... ok
+test_tied_checkpoint_keeps_earlier_epoch_and_accuracy_is_recomputed (test_baseline_results.BaselineResultTests.test_tied_checkpoint_keeps_earlier_epoch_and_accuracy_is_recomputed) ... ok
+test_member3_paths_and_last_checkpoint_survive_packaging (test_checkpoint_release.CheckpointReleaseTests.test_member3_paths_and_last_checkpoint_survive_packaging) ... ok
+test_seven_configs_share_recipe_and_match_factorial_design (test_configs.ConfigTests.test_seven_configs_share_recipe_and_match_factorial_design) ... ok
+test_group_leakage_and_test_split_are_rejected (test_core.ContractTests.test_group_leakage_and_test_split_are_rejected) ... ok
+test_js_is_symmetric_stable_and_zero_for_identical_predictions (test_core.LossTests.test_js_is_symmetric_stable_and_zero_for_identical_predictions) ... ok
+test_outputs_gradients_and_capacity_controls (test_core.ModelTests.test_outputs_gradients_and_capacity_controls) ... ok
+test_seeded_initialization_is_reproducible (test_core.ModelTests.test_seeded_initialization_is_reproducible) ... ok
+{"audited": 24, "errors": 0, "near_candidates": 0}
+{"seed": 17, "target_fractions": [0.7, 0.15, 0.15], "counts_by_label": {"train": [8, 8], "dev": [2, 2], "holdout": [2, 2]}, "images": 24, "groups": 22, "duplicate_groups": 2, "split_sha256": "9b58ada95d4d288c25e4465ea55a8996cd49ae75e94c806fdeba5da380a201a1", "group_overlap": false}
+test_epoch_replay_and_paired_geometry_with_global_and_local_modes (test_data.DataTests.test_epoch_replay_and_paired_geometry_with_global_and_local_modes) ... ok
+{"audited": 24, "errors": 0, "near_candidates": 0}
+{"seed": 17, "target_fractions": [0.7, 0.15, 0.15], "counts_by_label": {"train": [8, 8], "dev": [2, 2], "holdout": [2, 2]}, "images": 24, "groups": 22, "duplicate_groups": 2, "split_sha256": "9b58ada95d4d288c25e4465ea55a8996cd49ae75e94c806fdeba5da380a201a1", "group_overlap": false}
+{"seed": 17, "target_fractions": [0.7, 0.15, 0.15], "counts_by_label": {"train": [8, 8], "dev": [2, 2], "holdout": [2, 2]}, "images": 24, "groups": 22, "duplicate_groups": 2, "split_sha256": "9b58ada95d4d288c25e4465ea55a8996cd49ae75e94c806fdeba5da380a201a1", "group_overlap": false}
+test_exact_duplicate_groups_stay_together_and_split_is_reproducible (test_data.DataTests.test_exact_duplicate_groups_stay_together_and_split_is_reproducible) ... ok
+{"audited": 24, "errors": 0, "near_candidates": 0}
+{"seed": 17, "target_fractions": [0.7, 0.15, 0.15], "counts_by_label": {"train": [8, 8], "dev": [2, 2], "holdout": [2, 2]}, "images": 24, "groups": 22, "duplicate_groups": 2, "split_sha256": "9b58ada95d4d288c25e4465ea55a8996cd49ae75e94c806fdeba5da380a201a1", "group_overlap": false}
+test_manifest_tamper_and_group_leakage_are_rejected_before_loading (test_data.DataTests.test_manifest_tamper_and_group_leakage_are_rejected_before_loading) ... ok
+{"audited": 24, "errors": 0, "near_candidates": 0}
+{"seed": 17, "target_fractions": [0.7, 0.15, 0.15], "counts_by_label": {"train": [8, 8], "dev": [2, 2], "holdout": [2, 2]}, "images": 24, "groups": 22, "duplicate_groups": 2, "split_sha256": "9b58ada95d4d288c25e4465ea55a8996cd49ae75e94c806fdeba5da380a201a1", "group_overlap": false}
+test_multibatch_cpu_resume_replays_actual_image_pipeline (test_data.DataTests.test_multibatch_cpu_resume_replays_actual_image_pipeline) ... ok
+test_real_data_module_is_delivered (test_data.DataTests.test_real_data_module_is_delivered) ... ok
+{"audited": 24, "errors": 0, "near_candidates": 0}
+{"seed": 17, "target_fractions": [0.7, 0.15, 0.15], "counts_by_label": {"train": [8, 8], "dev": [2, 2], "holdout": [2, 2]}, "images": 24, "groups": 22, "duplicate_groups": 2, "split_sha256": "9b58ada95d4d288c25e4465ea55a8996cd49ae75e94c806fdeba5da380a201a1", "group_overlap": false}
+test_refit_data_preparation_requires_freeze_then_covers_all_labeled (test_data.DataTests.test_refit_data_preparation_requires_freeze_then_covers_all_labeled) ... ok
+test_small_grayscale_and_rgba_inputs_produce_rgb_pairs (test_data.DataTests.test_small_grayscale_and_rgba_inputs_produce_rgb_pairs) ... ok
+test_test_directory_is_rejected_by_audit (test_data.DataTests.test_test_directory_is_rejected_by_audit) ... ok
+test_changed_budget_is_rejected_before_launch (test_member2.ExecutionFreezeTests.test_changed_budget_is_rejected_before_launch) ... ok
+test_freeze_reuse_and_data_tampering (test_member2.ExecutionFreezeTests.test_freeze_reuse_and_data_tampering) ... ok
+Queue is paused; use --resume-queue only when ready to continue.
+test_pause_marker_prevents_any_training_launch (test_member2.ExecutionFreezeTests.test_pause_marker_prevents_any_training_launch) ... ok
+test_cluster_bootstrap_and_pair_validation (test_member3.Member3EvaluationTests.test_cluster_bootstrap_and_pair_validation) ... ok
+test_independent_center_matches_training_adapter (test_member3.Member3EvaluationTests.test_independent_center_matches_training_adapter) ... ok
+test_jpeg_matches_full_image_before_crop_protocol (test_member3.Member3EvaluationTests.test_jpeg_matches_full_image_before_crop_protocol) ... ok
+test_reject_nonfinite_probabilities (test_member3.Member3EvaluationTests.test_reject_nonfinite_probabilities) ... ok
+test_tied_auc_and_threshold (test_member3.Member3EvaluationTests.test_tied_auc_and_threshold) ... ok
+test_allowlist_and_hashes_preserve_team_files_without_private_state (test_package.PackageTests.test_allowlist_and_hashes_preserve_team_files_without_private_state) ... ok
+{"epoch": 1, "experiment": "D", "seed": 17, "data_kind": "synthetic_engineering", "train_loss": 0.6466706097126007, "train_supervised": 0.6466304063796997, "train_js": 0.00040193047061620746, "train_accuracy": 0.84375, "dev_loss": 0.6361323297023773, "dev_accuracy": 1.0, "learning_rate": 0.003, "consistency_weight": 0.1, "seconds": 0.15814680000767112, "peak_vram_bytes": 0, "parameters": 45945, "best": true}
+{"epoch": 2, "experiment": "D", "seed": 17, "data_kind": "synthetic_engineering", "train_loss": 0.5201073884963989, "train_supervised": 0.5198284313082695, "train_js": 0.0027896341925952584, "train_accuracy": 1.0, "dev_loss": 0.5613486468791962, "dev_accuracy": 1.0, "learning_rate": 0.0015, "consistency_weight": 0.1, "seconds": 0.09778509999159724, "peak_vram_bytes": 0, "parameters": 45945, "best": true}
+{"epoch": 1, "experiment": "D", "seed": 17, "data_kind": "synthetic_engineering", "train_loss": 0.6466706097126007, "train_supervised": 0.6466304063796997, "train_js": 0.00040193047061620746, "train_accuracy": 0.84375, "dev_loss": 0.6361323297023773, "dev_accuracy": 1.0, "learning_rate": 0.003, "consistency_weight": 0.1, "seconds": 0.09766430000308901, "peak_vram_bytes": 0, "parameters": 45945, "best": true}
+{"epoch": 2, "experiment": "D", "seed": 17, "data_kind": "synthetic_engineering", "train_loss": 0.5201073884963989, "train_supervised": 0.5198284313082695, "train_js": 0.0027896341925952584, "train_accuracy": 1.0, "dev_loss": 0.5613486468791962, "dev_accuracy": 1.0, "learning_rate": 0.0015, "consistency_weight": 0.1, "seconds": 0.10914949997095391, "peak_vram_bytes": 0, "parameters": 45945, "best": true}
+test_epoch_resume_matches_uninterrupted_training_and_loads_predictions (test_training.TrainingTests.test_epoch_resume_matches_uninterrupted_training_and_loads_predictions) ... ok
+{"epoch": 1, "experiment": "B", "seed": 17, "data_kind": "synthetic_engineering", "purpose": "final_refit_no_validation", "train_loss": 0.5929309676090876, "train_accuracy": 0.9166666666666666, "learning_rate": 0.003, "train_supervised": 0.5929309676090876, "train_js": 0.0006486764292882677, "seconds": 0.13809800002491102, "parameters": 45945, "peak_vram_bytes": 0}
+{"epoch": 2, "experiment": "B", "seed": 17, "data_kind": "synthetic_engineering", "purpose": "final_refit_no_validation", "train_loss": 0.36119218667348224, "train_accuracy": 1.0, "learning_rate": 0.0015, "train_supervised": 0.36119218667348224, "train_js": 0.0004070194069451342, "seconds": 0.13292880001245067, "parameters": 45945, "peak_vram_bytes": 0}
+test_final_refit_has_no_dev_selection_and_keeps_separate_provenance (test_training.TrainingTests.test_final_refit_has_no_dev_selection_and_keeps_separate_provenance) ... ok
+test_invalid_raw_input_is_rejected_at_boundary (test_training.TrainingTests.test_invalid_raw_input_is_rejected_at_boundary) ... ok
+test_official_training_requires_frozen_shared_budget (test_training.TrainingTests.test_official_training_requires_frozen_shared_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 4.459s
+
+OK

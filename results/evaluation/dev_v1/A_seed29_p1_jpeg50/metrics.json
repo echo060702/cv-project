@@ -1,0 +1,80 @@
+{
+  "metrics": {
+    "count": 1200,
+    "accuracy": 0.8625,
+    "roc_auc": 0.9341277777777778,
+    "confusion_matrix": [
+      [
+        520,
+        80
+      ],
+      [
+        85,
+        515
+      ]
+    ],
+    "per_class": [
+      {
+        "label": 0,
+        "precision": 0.859504132231405,
+        "recall": 0.8666666666666667
+      },
+      {
+        "label": 1,
+        "precision": 0.865546218487395,
+        "recall": 0.8583333333333333
+      }
+    ],
+    "threshold": 0.5
+  },
+  "split": "dev",
+  "condition": "jpeg50",
+  "patches": 1,
+  "aggregation": "mean_probability",
+  "checkpoint_sha256": "13f4cd5b29dddf0a358617ea12c1378f38112ea43706e6dd390a901b72e3f4b8",
+  "source_sha256": "70256c817339b0db612c00439e1a73460c9ddc05793549d96755776ebddf1669",
+  "evaluator_sha256": "b283e26d0f0daba1f7f478e95fae800141ee05eaf0f622a5f9b2636ca6d722af",
+  "manifest_sha256": "5b2303b63c94085d65c1c33029a2a541b056444b3544ab213057ec05d4d5348f",
+  "config": {
+    "experiment": "A",
+    "status": "frozen_budget",
+    "seed": 29,
+    "model": {
+      "width": 32,
+      "branch": "none"
+    },
+    "data": {
+      "mode": "local",
+      "image_size": 224,
+      "root": "data/official",
+      "manifest": "data/splits.csv",
+      "jpeg_quality": [
+        60,
+        100
+      ]
+    },
+    "training": {
+      "epochs": 20,
+      "batch_size": 16,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "consistency": 0.0,
+      "warmup_fraction": 0.1,
+      "workers": 0,
+      "amp": true
+    },
+    "adapter": "team_data:build_loaders",
+    "adapter_source_sha256": "29757518fc7ef14103acb95443b84d0956a7bae56109838e9a1fdddf09c1c8ca"
+  },
+  "torch_version": "2.7.1+cu128",
+  "device": "cuda",
+  "batch_size": 16,
+  "numpy_version": "2.4.4",
+  "pillow_version": "12.2.0",
+  "wall_seconds": 10.598005600040779,
+  "images_per_second": 113.22885128456458,
+  "peak_vram_bytes": 577886720,
+  "holdout_evaluated": false,
+  "test_pixels_decoded": false,
+  "predictions_sha256": "bd1a155560f2de736534e94eb2cbc3104439302106950a23b960f50f2b984374"
+}

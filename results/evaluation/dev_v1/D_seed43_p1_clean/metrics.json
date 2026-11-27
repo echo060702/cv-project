@@ -1,0 +1,80 @@
+{
+  "metrics": {
+    "count": 1200,
+    "accuracy": 0.91,
+    "roc_auc": 0.9645472222222222,
+    "confusion_matrix": [
+      [
+        521,
+        79
+      ],
+      [
+        29,
+        571
+      ]
+    ],
+    "per_class": [
+      {
+        "label": 0,
+        "precision": 0.9472727272727273,
+        "recall": 0.8683333333333333
+      },
+      {
+        "label": 1,
+        "precision": 0.8784615384615385,
+        "recall": 0.9516666666666667
+      }
+    ],
+    "threshold": 0.5
+  },
+  "split": "dev",
+  "condition": "clean",
+  "patches": 1,
+  "aggregation": "mean_probability",
+  "checkpoint_sha256": "e2ae47cb89ef28ef2415cfc6548c62804d9d358beef7014b06bd560faa8a47b4",
+  "source_sha256": "70256c817339b0db612c00439e1a73460c9ddc05793549d96755776ebddf1669",
+  "evaluator_sha256": "b283e26d0f0daba1f7f478e95fae800141ee05eaf0f622a5f9b2636ca6d722af",
+  "manifest_sha256": "5b2303b63c94085d65c1c33029a2a541b056444b3544ab213057ec05d4d5348f",
+  "config": {
+    "experiment": "D",
+    "status": "frozen_budget",
+    "seed": 43,
+    "model": {
+      "width": 32,
+      "branch": "residual"
+    },
+    "data": {
+      "mode": "local",
+      "image_size": 224,
+      "root": "data/official",
+      "manifest": "data/splits.csv",
+      "jpeg_quality": [
+        60,
+        100
+      ]
+    },
+    "training": {
+      "epochs": 20,
+      "batch_size": 16,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "consistency": 0.1,
+      "warmup_fraction": 0.1,
+      "workers": 0,
+      "amp": true
+    },
+    "adapter": "team_data:build_loaders",
+    "adapter_source_sha256": "29757518fc7ef14103acb95443b84d0956a7bae56109838e9a1fdddf09c1c8ca"
+  },
+  "torch_version": "2.7.1+cu128",
+  "device": "cuda",
+  "batch_size": 16,
+  "numpy_version": "2.4.4",
+  "pillow_version": "12.2.0",
+  "wall_seconds": 8.243236899841577,
+  "images_per_second": 145.5738825148968,
+  "peak_vram_bytes": 578267136,
+  "holdout_evaluated": false,
+  "test_pixels_decoded": false,
+  "predictions_sha256": "83989e6447145542fdc4ece1e44ce4b9b3a8ef8a79bfb7c357b892d4c078a52e"
+}

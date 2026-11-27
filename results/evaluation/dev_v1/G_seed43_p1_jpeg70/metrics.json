@@ -1,0 +1,80 @@
+{
+  "metrics": {
+    "count": 1200,
+    "accuracy": 0.7958333333333333,
+    "roc_auc": 0.8695083333333333,
+    "confusion_matrix": [
+      [
+        503,
+        97
+      ],
+      [
+        148,
+        452
+      ]
+    ],
+    "per_class": [
+      {
+        "label": 0,
+        "precision": 0.7726574500768049,
+        "recall": 0.8383333333333334
+      },
+      {
+        "label": 1,
+        "precision": 0.8233151183970856,
+        "recall": 0.7533333333333333
+      }
+    ],
+    "threshold": 0.5
+  },
+  "split": "dev",
+  "condition": "jpeg70",
+  "patches": 1,
+  "aggregation": "mean_probability",
+  "checkpoint_sha256": "01b68f18e55ed549faadd75d519beefd78502cb0d12564552e26b36911341c0e",
+  "source_sha256": "70256c817339b0db612c00439e1a73460c9ddc05793549d96755776ebddf1669",
+  "evaluator_sha256": "b283e26d0f0daba1f7f478e95fae800141ee05eaf0f622a5f9b2636ca6d722af",
+  "manifest_sha256": "5b2303b63c94085d65c1c33029a2a541b056444b3544ab213057ec05d4d5348f",
+  "config": {
+    "experiment": "G",
+    "status": "frozen_budget",
+    "seed": 43,
+    "model": {
+      "width": 32,
+      "branch": "none"
+    },
+    "data": {
+      "mode": "global",
+      "image_size": 224,
+      "root": "data/official",
+      "manifest": "data/splits.csv",
+      "jpeg_quality": [
+        60,
+        100
+      ]
+    },
+    "training": {
+      "epochs": 20,
+      "batch_size": 16,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "consistency": 0.0,
+      "warmup_fraction": 0.1,
+      "workers": 0,
+      "amp": true
+    },
+    "adapter": "team_data:build_loaders",
+    "adapter_source_sha256": "29757518fc7ef14103acb95443b84d0956a7bae56109838e9a1fdddf09c1c8ca"
+  },
+  "torch_version": "2.7.1+cu128",
+  "device": "cuda",
+  "batch_size": 16,
+  "numpy_version": "2.4.4",
+  "pillow_version": "12.2.0",
+  "wall_seconds": 9.223154200008139,
+  "images_per_second": 130.10733356262665,
+  "peak_vram_bytes": 577886720,
+  "holdout_evaluated": false,
+  "test_pixels_decoded": false,
+  "predictions_sha256": "315007a2b6c087028d2a7736b16b71f7a1e34f28cddeab31f91eafdb34bc42fb"
+}

@@ -16,17 +16,19 @@ from pathlib import Path
 from cvdetect.contracts import validate_config  # noqa: F401  (保持与训练代码同源的可导入性)
 
 
-def collect(runs_dir: Path, experiments: list[str], seeds: list[int]) -> list[tuple[str, Path]]:
+def collect(runs_dir: Path, experiments: list[str], seeds: list[int], *, include_last: bool = False) -> list[tuple[str, Path]]:
     items: list[tuple[str, Path]] = []
     missing: list[str] = []
     for exp in experiments:
         for seed in seeds:
             run = runs_dir / f'{exp}_seed{seed}'
-            weight = run / 'best.pt'
-            if weight.is_file():
-                items.append((f'runs/baselines/{exp}_seed{seed}/best.pt', weight))
-            else:
-                missing.append(str(weight))
+            for filename in (('best.pt', 'last.pt') if include_last else ('best.pt',)):
+                weight = run / filename
+                if weight.is_file():
+                    relative = weight.resolve().relative_to(Path.cwd().resolve()).as_posix()
+                    items.append((relative, weight))
+                else:
+                    missing.append(str(weight))
     if missing:
         raise SystemExit('缺少 checkpoint：\n  ' + '\n  '.join(missing))
     return items
@@ -37,7 +39,8 @@ def build(items: list[tuple[str, Path]], output: Path) -> dict:
     with zipfile.ZipFile(output, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
         for relative, path in items:
             archive.write(path, relative)
-    digest = hashlib.file_digest(output.open('rb'), 'sha256').hexdigest()
+    with output.open('rb') as stream:
+        digest = hashlib.file_digest(stream, 'sha256').hexdigest()
     sidecar = output.with_suffix(output.suffix + '.sha256')
     sidecar.write_text(f'{digest}  {output.name}\n', encoding='utf-8')
     return {'output': str(output), 'bytes': output.stat().st_size, 'sha256': digest,
@@ -46,7 +49,7 @@ def build(items: list[tuple[str, Path]], output: Path) -> dict:
 
 def release_body(items: list[tuple[str, Path]], report: dict, experiments: list[str], seeds: list[int]) -> str:
     rows = '\n'.join(f'| `{relative}` | {path.stat().st_size / 1024 ** 2:.1f} MB |' for relative, path in items)
-    return f'''## 权重包（best.pt）
+    return f'''## Checkpoint 权重包
 
 | 文件 | 大小 |
 |---|---|
@@ -65,7 +68,7 @@ sha256sum {Path(report['output']).name}   # 必须等于上面的 SHA256
 unzip -o {Path(report['output']).name} -d .
 ```
 
-权重不含优化器状态与 `last.pt`：训练已完成，续跑不再需要；重新训练是新的随机初始化。
+附件保留训练器保存的原始checkpoint（含优化器状态）；是否包含last.pt以文件表为准。
 '''
 
 
@@ -75,10 +78,11 @@ def main() -> None:
     parser.add_argument('--experiments', nargs='+', required=True)
     parser.add_argument('--seeds', nargs='+', type=int, required=True)
     parser.add_argument('--output', required=True)
+    parser.add_argument('--include-last', action='store_true', help='also include last.pt for complete run auditing')
     parser.add_argument('--release-body', help='把发布说明片段写入该文件')
     args = parser.parse_args()
 
-    items = collect(Path(args.runs), args.experiments, args.seeds)
+    items = collect(Path(args.runs), args.experiments, args.seeds, include_last=args.include_last)
     report = build(items, Path(args.output))
     if args.release_body:
         Path(args.release_body).write_text(release_body(items, report, args.experiments, args.seeds), encoding='utf-8')

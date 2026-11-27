@@ -1,0 +1,9 @@
+{
+  "scope": "first 16 dev images only; not holdout",
+  "count": 16,
+  "seconds": 0.7920188000425696,
+  "max_abs_difference": 3.230571746826172e-05,
+  "classification_disagreements": 0,
+  "torch_version": "2.5.1+cpu",
+  "device": "cpu"
+}

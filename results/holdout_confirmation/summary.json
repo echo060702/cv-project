@@ -1,0 +1,140 @@
+{
+  "status": "complete",
+  "experiment": "B",
+  "patches": 1,
+  "threshold": 0.5,
+  "protocol_sha256": "9f5f022be46d48ccf97a24726a55c47cf6085f9a43f0f9f955105c78fe6f85a5",
+  "evaluation_freeze_sha256": "1db3a384a9ac64af36b0763ef5319a05252d17aca88b8fa68266a0ec07a64c47",
+  "reports": [
+    {
+      "seed": 17,
+      "experiment": "B",
+      "split": "holdout",
+      "condition": "clean",
+      "checkpoint_sha256": "a4c2f08769816235fe4cd014069ebe4ecbe076f9caa2f34c3c0e46f11caa3de5",
+      "protocol_sha256": "9f5f022be46d48ccf97a24726a55c47cf6085f9a43f0f9f955105c78fe6f85a5",
+      "predictions_sha256": "c53a6c34abfd95593edbbf891150748350e5f847f83e6b6900ed594b01171fe0",
+      "wall_seconds": 227.8698405000032,
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.905,
+        "roc_auc": 0.9642611111111111,
+        "confusion_matrix": [
+          [
+            518,
+            82
+          ],
+          [
+            32,
+            568
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9418181818181818,
+            "recall": 0.8633333333333333
+          },
+          {
+            "label": 1,
+            "precision": 0.8738461538461538,
+            "recall": 0.9466666666666667
+          }
+        ],
+        "threshold": 0.5
+      },
+      "holdout_evaluated": true,
+      "test_pixels_decoded": false
+    },
+    {
+      "seed": 29,
+      "experiment": "B",
+      "split": "holdout",
+      "condition": "clean",
+      "checkpoint_sha256": "b2b73d7103f7b222d0f8576d43f9e3db12acfe60253b8bb305c4b8d587dd11de",
+      "protocol_sha256": "9f5f022be46d48ccf97a24726a55c47cf6085f9a43f0f9f955105c78fe6f85a5",
+      "predictions_sha256": "d52779b98630ea413c5644bf23642e0bc86740c941018d0020c78b7e87b7ced1",
+      "wall_seconds": 264.3851159000187,
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.915,
+        "roc_auc": 0.9680916666666667,
+        "confusion_matrix": [
+          [
+            539,
+            61
+          ],
+          [
+            41,
+            559
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9293103448275862,
+            "recall": 0.8983333333333333
+          },
+          {
+            "label": 1,
+            "precision": 0.9016129032258065,
+            "recall": 0.9316666666666666
+          }
+        ],
+        "threshold": 0.5
+      },
+      "holdout_evaluated": true,
+      "test_pixels_decoded": false
+    },
+    {
+      "seed": 43,
+      "experiment": "B",
+      "split": "holdout",
+      "condition": "clean",
+      "checkpoint_sha256": "1f2cb15fe32be91408a07b8484efd40007473f0ef0b3daf1ebf5e83c967a3043",
+      "protocol_sha256": "9f5f022be46d48ccf97a24726a55c47cf6085f9a43f0f9f955105c78fe6f85a5",
+      "predictions_sha256": "92bc7dc75b1e86d7c6a5e469af6df022febeae31415bfe518fde26d3fe398ffe",
+      "wall_seconds": 265.29463379998924,
+      "metrics": {
+        "count": 1200,
+        "accuracy": 0.9141666666666667,
+        "roc_auc": 0.9706277777777778,
+        "confusion_matrix": [
+          [
+            530,
+            70
+          ],
+          [
+            33,
+            567
+          ]
+        ],
+        "per_class": [
+          {
+            "label": 0,
+            "precision": 0.9413854351687388,
+            "recall": 0.8833333333333333
+          },
+          {
+            "label": 1,
+            "precision": 0.8901098901098901,
+            "recall": 0.945
+          }
+        ],
+        "threshold": 0.5
+      },
+      "holdout_evaluated": true,
+      "test_pixels_decoded": false
+    }
+  ],
+  "accuracy_mean": 0.9113888888888889,
+  "accuracy_sample_std": 0.005548606765399495,
+  "roc_auc_mean": 0.9676601851851852,
+  "unique_images": 1200,
+  "prediction_rows": 3600,
+  "independent_observation_note": "Same 1200 images across seeds; not 3600 independent samples",
+  "method_changed_after_confirmation": false,
+  "holdout_evaluated": true,
+  "test_pixels_decoded": false,
+  "environment_note": "CPU PyTorch 2.5.1; prior dev evaluation used CUDA PyTorch 2.7.1; no retuning"
+}

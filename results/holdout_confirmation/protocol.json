@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "scope": "selected method only; clean holdout; all frozen seeds; no tuning",
+  "evaluation_freeze_sha256": "1db3a384a9ac64af36b0763ef5319a05252d17aca88b8fa68266a0ec07a64c47",
+  "selection_summary_sha256": "e0b4bb50106358cc0cf0a5c381b13201c06e5beed0c5184751fe55f1f9a02cb0",
+  "evaluator_sha256": "b283e26d0f0daba1f7f478e95fae800141ee05eaf0f622a5f9b2636ca6d722af",
+  "runner_sha256": "dedd4be01433333b28ea7abf6438b3364a5b5affc6799bd284dc0c5b2f7282a0",
+  "audit_sha256": "8c85a3199317ad73a9759ab2dfbdff6b1832e94d5d726fe2c2f3bd7b9464ccd8",
+  "split_sha256": "5b2303b63c94085d65c1c33029a2a541b056444b3544ab213057ec05d4d5348f",
+  "jobs": [
+    {
+      "key": "B_seed17_p1_clean",
+      "experiment": "B",
+      "seed": 17,
+      "patches": 1,
+      "condition": "clean",
+      "checkpoint": "runs/member2/B_seed17/best.pt",
+      "checkpoint_sha256": "a4c2f08769816235fe4cd014069ebe4ecbe076f9caa2f34c3c0e46f11caa3de5"
+    },
+    {
+      "key": "B_seed29_p1_clean",
+      "experiment": "B",
+      "seed": 29,
+      "patches": 1,
+      "condition": "clean",
+      "checkpoint": "runs/member2/B_seed29/best.pt",
+      "checkpoint_sha256": "b2b73d7103f7b222d0f8576d43f9e3db12acfe60253b8bb305c4b8d587dd11de"
+    },
+    {
+      "key": "B_seed43_p1_clean",
+      "experiment": "B",
+      "seed": 43,
+      "patches": 1,
+      "condition": "clean",
+      "checkpoint": "runs/member2/B_seed43/best.pt",
+      "checkpoint_sha256": "1f2cb15fe32be91408a07b8484efd40007473f0ef0b3daf1ebf5e83c967a3043"
+    }
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "condition": "clean",
+  "patches": 1,
+  "threshold": 0.5,
+  "aggregation": "mean_probability",
+  "count": 1200,
+  "device": "cpu",
+  "batch_size": 16,
+  "python_version": "3.12.4",
+  "torch_version": "2.5.1+cpu",
+  "numpy_version": "2.4.4",
+  "pillow_version": "12.2.0",
+  "rule": "Report every frozen seed, mean and sample std; no seed/epoch/threshold/model reselection",
+  "timing": "protocol saved before holdout model inference",
+  "test_pixels_decoded": false
+}

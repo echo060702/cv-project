@@ -1,0 +1,40 @@
+{
+  "seed": 29,
+  "experiment": "B",
+  "split": "holdout",
+  "condition": "clean",
+  "checkpoint_sha256": "b2b73d7103f7b222d0f8576d43f9e3db12acfe60253b8bb305c4b8d587dd11de",
+  "protocol_sha256": "9f5f022be46d48ccf97a24726a55c47cf6085f9a43f0f9f955105c78fe6f85a5",
+  "predictions_sha256": "d52779b98630ea413c5644bf23642e0bc86740c941018d0020c78b7e87b7ced1",
+  "wall_seconds": 264.3851159000187,
+  "metrics": {
+    "count": 1200,
+    "accuracy": 0.915,
+    "roc_auc": 0.9680916666666667,
+    "confusion_matrix": [
+      [
+        539,
+        61
+      ],
+      [
+        41,
+        559
+      ]
+    ],
+    "per_class": [
+      {
+        "label": 0,
+        "precision": 0.9293103448275862,
+        "recall": 0.8983333333333333
+      },
+      {
+        "label": 1,
+        "precision": 0.9016129032258065,
+        "recall": 0.9316666666666666
+      }
+    ],
+    "threshold": 0.5
+  },
+  "holdout_evaluated": true,
+  "test_pixels_decoded": false
+}
